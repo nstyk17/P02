@@ -1,0 +1,23 @@
+.checkoutCart{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border:1px solid black;
+}
+
+.checkoutItems{
+	display: flex;
+
+}
+
+.checkoutItem{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	border:1px solid black;
+}
+
+nav{
+	display: flex;
+	flex-flow:row wrap;
+}
