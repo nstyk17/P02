@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<title>P01 - Checkout Cart - COLLECTIVE</title>
+
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<!-- //CHECKOUT SECTION // -->
+<section id="checkout">
+  <h2>Checkout Template</h2>
+<section class="element">
+      <h2>Your Cart</h2>
+      <img src="cart-icon-28356.png" class="cart" alt="icon of the shopping cart">
+      <div class="Checkout_container">
+      <nav>  <!--Navigation Menu learned from https://www.w3schools.com/tags/tag_nav.asp-->
+        <a href ="index.html"> Home</a> |
+        <a href ="Product.html"> Shop</a> |
+        <a href ="Checkout.html"> Checkout</a> |
+      </nav>
+      </div>
+  <div class="c_container">
+
+<div class="cart_container">
+<img src="ElwoodHoodie.jpeg" alt="Photo of the Rectangle Hoodie made by Elwood">
+<h2>Rectangle Hoodie</h2>
+<h3>Price: $119.99</h3>
+  <a class="button-nav" href="#">Remove</a>
+</div>
+<div class="cart_container">
+<img src="WoolCap.jpeg" alt="Photo of the E Wool Cap made by Elwood">
+<h2>E Wool Cap</h2>
+<h3>Price: $65.99</h3>
+  <a class="button-nav" href="#">Remove</a>
+</div>
+
+<h2>Total :$174.98</h2>
+<div class="payment_container">
+<form action="/action_page.php" method="post"> <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/-->
+  <div>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname">
+  </div>
+  <div>
+    <label for="fname">Last Name:</label>
+    <input type="text" id="Lname" name="Lname">
+  </div>
+  <div>
+    <label for="Addy">Address:</label>
+    <input type="text" id="Addy" name="Addy">
+  </div>
+  <div>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city">
+  </div>
+  <div>
+    <label for="ctry">Country:</label>
+    <input type="text" id="ctry" name="ctry">
+  </div>
+  <div>
+    <label for="zip">Postal code:</label>
+    <input type="text" id="zip" name="zip">
+  </div>
+  <div>
+    <label for="pn">Phone number:</label>
+    <input type="text" id="pn" name="pn">
+  </div>
+
+  <label> <!--Radio button input field and a label learned from https://html.form.guide/snippets/html-radio-button-label/-->
+    <input type="radio" name="choice" value="express"> Express Shipping
+  </label>
+
+  <label>
+    <input type="radio" name="choice" value="black"> Regular Shipping
+  </label>
+  <input type ="reset" class="Reset" value ="Clear">
+  <input type ="submit" class="Submit" value="Pay">
+</form>
+</div>
+</div>
+</section>
+</section>
+
+<!-- //CHECKOUT SECTION // -->
