@@ -18,10 +18,11 @@ code {
 
 
 .button-nav {
+display:inline-block;
 border:none;
 border-radius: 0.25em;
 font-weight: bold;
-margin: 0.5em;
+margin-bottom: -2em;
 padding: 0.5em 1em 0.5em 1em;
 }
 
