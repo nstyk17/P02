@@ -1,0 +1,51 @@
+.checkoutCart{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	border:1px solid black;
+}
+
+.checkoutItems{
+	display: flex;
+	flex-grow:2;
+
+}
+
+.checkoutItem{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	border:1px solid black;
+}
+
+.paymentForm{
+	display: flex;
+	flex-grow:4;
+}
+
+nav{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-between;
+}
+
+
+.Top-bar{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: start;
+}
+
+.filter{
+	display: flex;
+	flex-flow column no-wrap;
+	justify-content: start;
+	background-color: red;
+}
+
+.filter-top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: blue;
+}
