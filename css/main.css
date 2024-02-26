@@ -15,14 +15,24 @@ code {
 
 /* Styling for the navigation button */
 
+<<<<<<< HEAD
 
+=======
+.search-bar{
+	margin-left: auto;
+	justify-content: right;
+}
+>>>>>>> EricP01
 
 .button-nav {
 display:inline-block;
 border:none;
 border-radius: 0.25em;
 font-weight: bold;
-margin-bottom: -2em;
+margin-left: 2rem;
+margin-bottom: 1rem;
+background-color: black;
+color: white;
 padding: 0.5em 1em 0.5em 1em;
 }
 
@@ -52,15 +62,24 @@ padding: 0.5em 1em 0.5em 1em;
 }
 
 nav{
+<<<<<<< HEAD
   background-color: black;
   padding:1em 1em 1em 1em;
+=======
+  background-color:#459329;
+  padding:1em 1em 1em 1em;
+  border-radius: 1rem;
+>>>>>>> EricP01
 }
 
 nav a{
   color:white;
   text-decoration: none;
+<<<<<<< HEAD
   border-top:2px solid black;
   border-bottom: 2px solid black;
+=======
+>>>>>>> EricP01
   margin-top:0.25em;
   margin-bottom: 0.25em;
   padding:0.25em 1em 0.25em 1em;
@@ -131,11 +150,19 @@ section a:hover img, section a:focus img{ /*learned from cousin who has experien
 }
 
 form input{ /*learned from cousin who has experience coding in HTML/CSS */
+<<<<<<< HEAD
   border: 1px solid black;
 }
 
 form input:hover, form input:focus{ /*learned from cousin who has experience coding in HTML/CSS */
   border: 1px solid cyan;
+=======
+  /* border: 1px solid black; */
+}
+
+form input:hover, form input:focus{ /*learned from cousin who has experience coding in HTML/CSS */
+  /* border: 1px solid cyan; */
+>>>>>>> EricP01
 }
 
 /*
@@ -178,11 +205,14 @@ li{
 }
 
 h1{
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 h2 {
   margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 h3 {
@@ -254,6 +284,10 @@ h4 {
 .inspo_img{
   max-width: 40vw;
   max-height: 40vw;
+}s
+
+.checkoutImg{
+  max-width: 40%;
 }
 
 .checkoutImg{
@@ -287,7 +321,108 @@ form div { /*learned from cousin who has experience coding in HTML/CSS */
   margin-bottom: 5px;
 }
 
+.dropdown{
+  overflow:scroll-y;
+
+}
+
+.xlarge-container{
+  border-top-width: thin;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.listing-container img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Top-bar img{
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.listing-container{
+  cursor: pointer;
+}
+
+.search-bar img{
+  max-width: 80%;
+  max-height:80%;
+}
+
+.filter{
+  padding-left: 2rem;
+}
+
+.Top-bar h1, p{
+padding-left: 2rem;
+}
+
+.listing-container{
+  margin-bottom: 2rem;
+}
+
+.nav-bar a{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-weight: bold;
+  font-size: larger;
+  
+}
+
+.search-bar input{
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+.Top-bar p{
+  font-family: "Tinos", serif;
+  font-style: italic;
+}
+
+.product-text-container h2, h3 {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.product-text-container p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  
+}
+
+.description-container{
+  border-top-width: thin;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.product-image-container img{
+  max-width: 75%;
+  margin-left: 2rem;
+}
+
+.Review-container{
+  border-top-width: thin;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.user-review-container{
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+.product-text-container h2{
+ margin-bottom:-1rem;
+}
+ 
 
 /*
   COMBINED ELEMENTS -------------------
+
 */
