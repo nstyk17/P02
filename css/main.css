@@ -481,6 +481,15 @@ padding-left: 2rem;
   padding:1em;
 }
 
+/*About Us Page*/
+
+.reviewBox{
+  margin:1.5em;
+}
+
+.brandContainer img{
+  margin:1.25em;
+}
 
 /*
   COMBINED ELEMENTS -------------------
