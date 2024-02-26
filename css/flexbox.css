@@ -1,22 +1,38 @@
+/*Event Flexboxes*/
+
+footer{
+	display: flex;
+	flex-flow:column wrap;
+	align-content: center;
+}
+
+/*Checkout Cart Flexboxes*/
+.totalcheckout{
+	display: flex;
+	flex-flow: row wrap;
+}
 
 .checkoutCart {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	border: 1px solid black;
+	flex-flow: column wrap;
+	max-width: 70%;
 }
 
 .checkoutItems {
-	display: flex;
-	flex-grow: 2;
-
+	display:flex;
+	flex-flow: row nowrap;
+	align-items: center;
 }
 
-.checkoutItem {
+.checkoutItem{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid black;
+}
+
+.priceAndPayment{
+	max-width: 25%;
 }
 
 .paymentForm {
@@ -24,6 +40,31 @@
 	flex-grow: 4;
 }
 
+@media screen and (max-width: 55em) {
+
+	.totalcheckout{
+		justify-content: center;
+	}
+
+	.checkoutCart{
+	max-width: 100%;		
+	}
+
+
+	.priceAndPayment{
+		margin-top: 1em;
+	max-width: 100%;
+}
+
+.checkoutItems {
+	display:flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+}
+
+/*Nav Bar Flexboxes*/
 nav {
 	display: flex;
 	flex-flow: row wrap;
@@ -109,4 +150,94 @@ nav {
 	display:flex;
 	flex-direction: column;
 >>>>>>> EricP01
+}
+
+/*Event Flexboxes*/
+
+.eventContainer{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.eventBlock{
+	flex:1;
+	flex-shrink: 1;
+	flex-basis: 20%;
+}
+
+/*
+min-width -> the value or BIGGER
+max-width -> the value or SMALLER
+*/
+
+@media screen and (max-width: 68rem) {
+	.eventBlock{
+		min-width: 40%
+	}
+
+}
+
+@media screen and (max-width: 40rem) {
+	.eventBlock{
+		min-width: 80%
+	}
+
+}
+
+
+/*About Us Page*/
+
+.story{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+.story1{	
+	max-width: 40%;
+}
+
+.story img{
+	max-width: 50%;
+}
+
+.reviewContainer{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-around;
+}
+
+.reviewBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 25%;
+	min-width: 15%;
+}
+
+.brandContainer{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 45rem) {
+	.reviewBox{
+		min-width: 50%
+	}
+	
+
+	.story img{
+		order:1;
+		max-width: 100%
+	}
+
+	.story1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		order:2;
+		max-width: 100%;
+	}
+
 }

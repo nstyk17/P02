@@ -9,6 +9,15 @@ code {
   display: block;
 }
 
+footer{
+  background-color: grey;
+  padding:1em;
+  margin-top:5em;
+}
+
+img{
+  max-width: 100%;
+}
 /*
   INTERACTIVE ELEMENTS -------------------
 */
@@ -57,6 +66,11 @@ padding: 0.5em 1em 0.5em 1em;
   background-color: #eee683;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
 nav{
   background-color:#459329;
   padding:1em 1em 1em 1em;
@@ -83,6 +97,7 @@ section a:hover, section a:focus { /*learned from cousin who has experience codi
 
 a img, a img{ /*learned from cousin who has experience coding in HTML/CSS */
   border: 0.1em solid white;
+  max-width: 100%;
 }
 
 section a:hover img, section a:focus img{ /*learned from cousin who has experience coding in HTML/CSS */
@@ -262,15 +277,6 @@ h4 {
 .inspo_img{
   max-width: 40vw;
   max-height: 40vw;
-}s
-
-.checkoutImg{
-  max-width: 40%;
-}
-
-
-.checkoutImg{
-  max-width: 70%;
 }
 
 form{
@@ -400,6 +406,90 @@ padding-left: 2rem;
  margin-bottom:-1rem;
 }
  
+ /*Event Styling*/
+.eventBlock:hover, .eventBlock:focus{
+  background-color: green;
+  transition: background-color 0.25s ease-out; 
+ }
+
+
+ .eventBlock{
+  background-color: grey;
+  max-width: 25%;
+  padding:0.5em 1em 0.5em 1em;
+  margin:0.5em 0.5em 0.5em 0.5em ;
+ }
+
+/*Checkout Styling*/
+
+.totalcheckout{
+  margin-top:2em;
+}
+
+.checkoutCart{
+  border:solid 1px black; 
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.checkoutCart h1{
+  border-bottom:solid 1px black;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.checkoutCart h2{
+
+  margin-left: 1em;
+  margin-right: 1em;
+  }
+
+
+.checkoutItems{
+  padding-top:0.5em;
+  padding-bottom:0.25em;
+  border-bottom:solid 1px black;
+}
+
+.checkoutItems img{
+  max-width: 20%;
+  margin:0.5em 0.5em 0.5em 0.5em;
+}
+
+.checkoutDescription{
+  max-width: 90%;
+}
+
+#quantity{
+  max-height: 10%;
+  max-width: 20%;
+  margin:0 1em 0 1em;
+}
+
+.priceAndPayment{
+  min-width: 26%
+}
+
+.total{
+  border:solid 1px black;
+  padding:1em;
+  margin-bottom: 1em;
+}
+
+.cardInfo{
+  border:solid 1px black;
+  padding:1em;
+}
+
+/*About Us Page*/
+
+.reviewBox{
+  margin:1.5em;
+}
+
+.brandContainer img{
+  margin:1.25em;
+}
 
 /*
   COMBINED ELEMENTS -------------------
