@@ -1,3 +1,11 @@
+/*Event Flexboxes*/
+
+footer{
+	display: flex;
+	flex-flow:column wrap;
+	align-content: center;
+}
+
 
 .checkoutCart {
 	display: flex;
@@ -109,4 +117,37 @@ nav {
 	display:flex;
 	flex-direction: column;
 >>>>>>> EricP01
+}
+
+/*Event Flexboxes*/
+
+.eventContainer{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.eventBlock{
+	flex:1;
+	flex-shrink: 1;
+	flex-basis: 20%;
+}
+
+/*
+min-width -> the value or BIGGER
+max-width -> the value or SMALLER
+*/
+
+@media screen and (max-width: 68rem) {
+	.eventBlock{
+		min-width: 40%
+	}
+
+}
+
+@media screen and (max-width: 40rem) {
+	.eventBlock{
+		min-width: 80%
+	}
+
 }

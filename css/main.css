@@ -9,6 +9,12 @@ code {
   display: block;
 }
 
+footer{
+  background-color: grey;
+  padding:1em;
+  margin-top:5em;
+}
+
 /*
   INTERACTIVE ELEMENTS -------------------
 */
@@ -57,6 +63,11 @@ padding: 0.5em 1em 0.5em 1em;
   background-color: #eee683;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
 nav{
   background-color:#459329;
   padding:1em 1em 1em 1em;
@@ -83,6 +94,7 @@ section a:hover, section a:focus { /*learned from cousin who has experience codi
 
 a img, a img{ /*learned from cousin who has experience coding in HTML/CSS */
   border: 0.1em solid white;
+  max-width: 100%;
 }
 
 section a:hover img, section a:focus img{ /*learned from cousin who has experience coding in HTML/CSS */
@@ -262,7 +274,7 @@ h4 {
 .inspo_img{
   max-width: 40vw;
   max-height: 40vw;
-}s
+}
 
 .checkoutImg{
   max-width: 40%;
@@ -399,6 +411,19 @@ padding-left: 2rem;
  margin-bottom:-1rem;
 }
  
+ /*Event Styling*/
+.eventBlock:hover, .eventBlock:focus{
+  background-color: green;
+  transition: background-color 0.25s ease-out; 
+ }
+
+
+ .eventBlock{
+  background-color: grey;
+  max-width: 25%;
+  padding:0.5em 1em 0.5em 1em;
+  margin:0.5em 0.5em 0.5em 0.5em ;
+ }
 
 /*
   COMBINED ELEMENTS -------------------
