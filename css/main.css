@@ -496,5 +496,7 @@ padding-left: 2rem;
 
 .brandContainer img{
   margin:1.25em;
+  max-width: 15%;
+  object-fit: cover;
 }
 
