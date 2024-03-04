@@ -10,7 +10,7 @@ code {
 }
 
 footer{
-  background-color: grey;
+  background-color: #459329;
   padding:1em;
   margin-top:5em;
 }
@@ -416,10 +416,15 @@ padding-left: 2rem;
 
 
  .eventBlock{
-  background-color: grey;
+  background-color: #8ee86d;
   max-width: 25%;
   padding:0.5em 1em 0.5em 1em;
   margin:0.5em 0.5em 0.5em 0.5em ;
+ }
+
+ .eventBlock img{
+  height:30em;
+  object-fit: cover;
  }
 
 /*Checkout Styling*/
@@ -493,7 +498,3 @@ padding-left: 2rem;
   margin:1.25em;
 }
 
-/*
-  COMBINED ELEMENTS -------------------
-
-*/
