@@ -191,6 +191,7 @@ max-width -> the value or SMALLER
 .story{
 	display:flex;
 	flex-flow:row wrap;
+	justify-content: space-between;
 }
 
 .story1{	
