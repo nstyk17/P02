@@ -11,16 +11,17 @@
   <title>Pawsaurus Clothing Co Multi-Product Page</title>
   <link href="css/main.css" rel="stylesheet">
   <link href="css/flexbox.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <style>
     .material-symbols-outlined {
       font-variation-settings:
-      'FILL' 0,
-      'wght' 400,
-      'GRAD' 0,
-      'opsz' 24
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
     }
-    </style>
+  </style>
 
 </head>
 
@@ -34,7 +35,16 @@
       </div>
       <div class="centerlogo">
         <h1>Pawsaurus Clothing Co</h1>
-        <p>Where paws meet prehistoric</p>
+      </div>
+
+      <div class="topicons">
+        <span class="material-symbols-outlined">
+          shopping_cart
+        </span>
+
+        <span class="material-symbols-outlined">
+          account_circle
+        </span>
       </div>
 
     </div>
@@ -52,7 +62,7 @@
             <input type="text" placeholder="Search">
             <span class="material-symbols-outlined">
               search
-              </span>
+            </span>
           </form>
         </div>
       </nav>
@@ -64,111 +74,136 @@
   <!-- End of brand name and navigation bar -->
 
   <!-- Start of product listing content -->
-  <h2>For Dogs</h2>
   <!-- container for all product listing content -->
   <div class="super-container">
-    <!-- Product filter feature -->
-    <div class="filter">
-      <!-- Top of filter  -->
-      <div class="filter-top">
-        <img src="Media/filter_list.png" alt="logo for filter">
-        <h4>Filter</h4>
-        <div class="sortby-container">
-          <h4>Sort By</h4>
-          <h4>Featured</h4>
-        </div>
-      </div>
-      <!-- End of top of filter -->
 
-      <!-- Size container -->
-      <div class="xlarge-container">
-        <div class="title-container">
-          <h4>For Dogs</h4>
-          <h4>-</h4>
-        </div>
-        <div class="checkbox-container">
-          <div class="checkbox-container1">
-            <input type="checkbox" id="xlarge1">
-            <label for="xlarge1"> Large</label>
-          </div>
-          <div class="checkbox-container2">
-            <input type="checkbox" id="xlarge2">
-            <label for="xlarge2"> Medium</label>
-          </div>
-          <div class="checkbox-container3">
-            <input type="checkbox" id="xlarge3">
-            <label for="xlarge3"> Small</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="xlarge-container">
-        <div class="title-container">
-          <h4>For Cats</h4>
-          <h4>-</h4>
-        </div>
-        <div class="checkbox-container">
-          <div class="checkbox-container1">
-            <input type="checkbox" id="large1">
-            <label for="large1"> Large</label>
-          </div>
-          <div class="checkbox-container2">
-            <input type="checkbox" id="large2">
-            <label for="large2"> Medium</label>
-          </div>
-          <div class="checkbox-container3">
-            <input type="checkbox" id="large3">
-            <label for="large3"> Small</label>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- End of size container -->
+    <div class="dog-banner">
+      <figure class="banner">
+        <img src="Media/dogbanner.jpg" alt="dogs running on the beach">
+        <figcaption>For Dogs</figcaption>
+      </figure>
     </div>
-    <!-- End of product filter feature -->
+
+    <div class="Service-description">
+      <h2>Custom Dinosaur Suits for Dogs</h2>
+      <p>Roar into adventure with our one-of-a-kind custom dog dino suits! Perfect for any playful dog who's ready to
+        transform into a prehistoric pal, these suits are designed with comfort, style, and personality in mind. </p>
+      <p>We here at Pawsaurus cater to all dogs and sizes!</p>
+    </div>
+
+    <!-- Start of product listing container feature -->
+    <div class="product-container">
+      <!-- Individual listing container -->
+      <div class="listing-container" onclick="window.location='Individual_Listing.html';">
+        <div class="listing-image">
+          <img src="Media/dog.jpg" alt="dog in dino suit">
+        </div>
+        <div class="listing-text">
+          <h2>Terry</h2>
+          <h4>As a devoted dog parent, I'm always on the lookout for fun ways to make memories with my furry companion.
+            When I stumbled upon these custom dog dino suits, I knew I had hit the jackpot!</h4>
+        </div>
+      </div>
+      <!-- End of individual listing container -->
+
+      <div class="listing-container" onclick="window.location='http://google.com';">
+        <div class="listing-image">
+          <img src="Media/dog5.jpg" alt="dog in dino suit">
+        </div>
+        <div class="listing-text">
+          <h2>Bumper</h2>
+          <h4> The fit of the suit was impeccable. My pup looked both adorable and comfortable in their dino attire, and
+            the lightweight fabric allowed for unrestricted movement, perfect for our adventurous outings.</h4>
+        </div>
+      </div>
+
+
+      <div class="listing-container" onclick="window.location='http://google.com';">
+        <div class="listing-image">
+          <img src="Media/dog3.jpg" alt="dog in dino suit">
+        </div>
+        <div class="listing-text">
+          <h2>Grover</h2>
+          <h4>What impressed me most was the attention to detail in the design. The fit was perfect, tailored precisely
+            to my dog's measurements, ensuring both comfort and style. The fabric was soft yet durable, allowing for
+            hours of play without any signs of wear or discomfort.</h4>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="button">
+      <button>Explore</button>
+    </div>
+
+    <!-- End of product listing container feature  -->
+    <div class="dog-banner">
+      <figure class="banner">
+        <img src="Media/catbanner.jpg" alt="cat running on the beach">
+        <figcaption>For Cats</figcaption>
+      </figure>
+    </div>
+
+    <div class="Service-description">
+      <h2>Custom Dinosaur Suits for Cats</h2>
+      <p>We here at Pawsaurus offer custom dinosaur suits made to your size and liking</p>
+
+    </div>
 
     <!-- Start of product listing container feature -->
     <div class="product-container">
 
       <!-- Individual listing container -->
       <div class="listing-container" onclick="window.location='Individual_Listing.html';">
-        <img src="Media/dog.jpg" alt="dog in dino suit">
-        <h3>T-Rex Suit</h3>
-        <h4>$49.99</h4>
+        <div class="listing-image">
+          <img src="Media/cat2.jpg" alt="cat in dino suit">
+        </div>
+        <div class="listing-text">
+          <h2>Tigger</h2>
+          <h4>The fit was spot-on, allowing for agile prowling and pouncing, while the attention to detail in the design
+            left us in awe. From the adorable spikes to the personalized touches, Tigger was the star of every cat
+            gathering. Plus, the durability meant endless fun without worrying about wear and tear. </h4>
+        </div>
       </div>
       <!-- End of individual listing container -->
 
       <div class="listing-container" onclick="window.location='http://google.com';">
-        <img src="Media/dog2.jpg" alt="dog in dino suit">
-        <h3>Triceratop Suit</h3>
-        <h4>$48.99</h4>
+        <div class="listing-image">
+          <img src="Media/cat3.jpg" alt="cat in dino suit">
+        </div>
+        <div class="listing-text">
+          <h2>Garfield</h2>
+          <h4>The fit was purr-fect, allowing Garfield to maintain his signature swagger while channeling his inner
+            prehistoric predator. From the playful spikes to the personalized touches, Garfield became the talk of the
+            neighborhood. </h4>
+        </div>
+
       </div>
+
       <div class="listing-container" onclick="window.location='http://google.com';">
-        <img src="Media/dog3.jpg" alt="dog in dino suit">
-        <h3>Velociraptor Suit</h3>
-        <h4>$49.99</h4>
+        <div class="listing-image">
+          <img src="Media/cat4.jpg" alt="cat in dino suit">
+        </div>
+        <div class="listing-text">
+          <h2>Luna</h2>
+          <h4>Luna's costume was tailor-made to her exact measurements, ensuring a snug yet comfortable fit that allowed
+            for effortless movement and play. The lightweight fabric meant she could prowl and pounce with ease, all
+            while looking absolutely adorable in her dino-inspired attire.</h4>
+        </div>
+
       </div>
-      <div class="listing-container" onclick="window.location='http://google.com';">
-        <img src="Media/cat.jpg" alt="cat in dino suit">
-        <h3>Green Dino Suit</h3>
-        <h4>$49.99</h4>
-      </div>
-      <div class="listing-container" onclick="window.location='http://google.com';">
-        <img src="Media/cat2.jpg" alt="cat in dino suit">
-        <h3>Red Dino Suit</h3>
-        <h4>$49.99</h4>
-      </div>
-      <div class="listing-container" onclick="window.location='http://google.com';">
-        <img src="Media/cat3.jpg" alt="cat in dino suit">
-        <h3>Dino Head Suit</h3>
-        <h4>$49.99</h4>
-      </div>
+
 
     </div>
     <!-- End of product listing container feature  -->
+    <div class="button">
+      <button>Explore</button>
+    </div>
   </div>
   <!-- End of product listing page super container -->
+
+
   <footer id="Contact">
     <h3> Contact </h3>
     <h4> Email: email@email.ca </h4>
