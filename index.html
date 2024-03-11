@@ -11,37 +11,75 @@
     <title>Pawsaurus Clothing Co Multi-Product Page</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+
 
 </head>
 
 <body>
- <header>
-        <!-- Branding -->
-        <div class="Top-bar">
+   <!-- Brand name and navigation bar -->
+   <header>
+    <!-- Branding -->
+    <div class="Top-bar">
+        <div class="bannerImg">
+            <img src="Media/Pawsaurus Clothing Co Logo.png" alt="logo of Pawsaurus Clothing Co"
+                onclick="window.location='index.html';">
+        </div>
+        <div class="centerlogo">
             <h1>Pawsaurus Clothing Co</h1>
-            <img src="Media/Pawsaurus Clothing Co Logo.png" alt="logo of Pawsaurus Clothing Co">
-            <p>Where paws meet prehistoric</p>
         </div>
-        <!-- End of branding section -->
 
-        <!-- Navigation bar -->
-        <div class="nav-bar">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="Multi_Product.html">Shop</a>
-                <a href="#Contact">Contact</a>
-                <div class="search-bar">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search">
-                        <input type="image" src="Media/mag.png" alt="Submit">
-                    </form>
-                </div>
-            </nav>
+        <div class="topicons">
+            <a href="checkoutcart.html">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </a>
+
+            <a href="#">
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+            </a>
         </div>
-        <!-- End of Navigation bar section -->
-    </header>
-    <!-- End of brand name and navigation bar -->
+
+    </div>
+    <!-- End of branding section -->
+
+    <!-- Navigation bar -->
+    <div class="nav-bar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Multi_Product.html">Shop</a>
+            <a href="#Contact">Contact</a>
+            <div class="search-bar">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search">
+                    <a href="Multi_Product.html">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </a>
+                </form>
+            </div>
+            <!-- End of Navigation bar section -->
+    </div>
+    <!-- End of Navigation bar section -->
+    </div>
+    <!-- End of Navigation bar section -->
+</header>
+<!-- End of brand name and navigation bar -->
 
     <!-- Start of Sale Banner -->
     <a href="">
