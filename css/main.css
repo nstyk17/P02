@@ -74,9 +74,7 @@ a{
   color:black;
 }
 
-nav{
-  background-color:#459329;
-  padding:1em 1em 1em 1em;
+
 nav {
   background-color: #459329;
   padding: 1em 1em 1em 1em;
@@ -377,10 +375,6 @@ form div {
   margin-bottom: 2rem;
 }
 
-.search-bar img {
-  max-width: 80%;
-  max-height: 80%;
-}
 
 .filter {
   padding-left: 2rem;
@@ -512,7 +506,7 @@ h3 {
 }
 
 .Service-description p{
-  width: 30%;
+  width: 50%;
 	align-self: center;
   margin-bottom: 2rem;
 }
@@ -523,7 +517,3 @@ h3 {
   margin-top: 1rem;
   margin-bottom: -3rem;
 }
-
-
-
-*/

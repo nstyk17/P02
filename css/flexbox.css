@@ -189,6 +189,11 @@ nav {
 .search-bar form {
 	display: flex;
 	justify-content: center;
+	margin-left: 2rem;
+}
+
+.search-bar a{
+	margin-left: -2rem;
 }
 
 .product-super-container {
@@ -207,7 +212,6 @@ nav {
 .user-review-container {
 	display: flex;
 	flex-direction: column;
-	>>>>>>>EricP01
 }
 
 /*Event Flexboxes*/
@@ -313,5 +317,9 @@ max-width -> the value or SMALLER
 	.product-container{
 		flex-direction: column;
 		justify-content: center;
+	}
+
+	.product-super-container{
+		flex-direction: column;
 	}
 }
