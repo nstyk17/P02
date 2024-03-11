@@ -9,6 +9,15 @@ code {
   display: block;
 }
 
+footer{
+  background-color: #459329;
+  padding:1em;
+  margin-top:5em;
+}
+
+img{
+  max-width: 100%;
+}
 /*
   INTERACTIVE ELEMENTS -------------------
 */
@@ -60,6 +69,14 @@ code {
   background-color: #eee683;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
+nav{
+  background-color:#459329;
+  padding:1em 1em 1em 1em;
 nav {
   background-color: #459329;
   padding: 1em 1em 1em 1em;
@@ -78,6 +95,9 @@ nav a:hover,
 nav a:focus {
   /*the !important overrides the section a:*/
   text-decoration: none !important;
+  border-color:white;
+  color:#0b2900;
+  transition: color 0.25s ease-out;
   border-color: white;
 }
 
@@ -91,6 +111,7 @@ a img,
 a img {
   /*learned from cousin who has experience coding in HTML/CSS */
   border: 0.1em solid white;
+  max-width: 100%;
 }
 
 section a:hover img,
@@ -504,7 +525,5 @@ h3 {
 }
 
 
-/*
-  COMBINED ELEMENTS -------------------
 
 */
