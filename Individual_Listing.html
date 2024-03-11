@@ -7,40 +7,70 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta charset="utf-8">
     <title>Pawsaurus Clothing Co Multi-Product Page</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
 
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+
 </head>
 
 <body>
-    <!-- Brand name and navigation bar -->
-    <header>
-        <!-- Branding -->
-        <div class="Top-bar">
-            <h1>Pawsaurus Clothing Co</h1>
-            <img src="Media/Pawsaurus Clothing Co Logo.png" alt="logo of Pawsaurus Clothing Co">
-            <p>Where paws meet prehistoric</p>
+       <!-- Branding -->
+       <div class="Top-bar">
+        <div class="bannerImg">
+          <img src="Media/Pawsaurus Clothing Co Logo.png" alt="logo of Pawsaurus Clothing Co">
         </div>
-        <!-- End of branding section -->
-
-         <!-- Navigation bar -->
-        <div class="nav-bar">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="Multi_Product.html">Shop</a>
-                <a href="#Contact">Contact</a>
-                <div class="search-bar">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search">
-                        <input type="image" src="Media/mag.png" alt="Submit">
-                    </form>
-                </div>
-            </nav>
+        <div class="centerlogo">
+          <h1>Pawsaurus Clothing Co</h1>
         </div>
-        <!-- End of Navigation bar section -->
+  
+        <div class="topicons">
+          <span class="material-symbols-outlined">
+            shopping_cart
+          </span>
+  
+          <span class="material-symbols-outlined">
+            account_circle
+          </span>
+        </div>
+  
+      </div>
+      <!-- End of branding section -->
+  
+      <!-- Navigation bar -->
+      <div class="nav-bar">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="Multi_Product.html">Shop</a>
+          <a href="#Contact">Contact</a>
+          <div class="search-bar">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search">
+              <a href="Multi_Product.html">
+                <span class="material-symbols-outlined">
+                  search
+                </span>
+              </a>
+            </form>
+          </div>
+          <!-- End of Navigation bar section -->
+      </div>
+      <!-- End of Navigation bar section -->
+      </div>
+      <!-- End of Navigation bar section -->
     </header>
     <!-- End of brand name and navigation bar -->
 
@@ -55,7 +85,7 @@
         <!-- Start of text container -->
         <div class="product-text-container">
             <h2>Pawsaurus Original</h2>
-            <h3>Chihuahua T-Rex</h3>
+            <h3>Custom Dino Suit for Dogs</h3>
             <h3>$49.99</h3>
             <a href="checkoutcart.html" class="button-nav">Add to cart</a>
             <!-- Start of description section -->
@@ -88,13 +118,45 @@
     <div class="Review-container">
         <h2>Reviews</h2>
         <div class="user-review-container">
-            <h3>John Smith</h3>
-            <p>My dogs LOVE it!</p>
+            <div class="review1">
+                <img src="Media/profile2.png" alt="icon for personal profile">
+                <h3>John Smith</h3>
+            </div>
+            <div class="review 2">
+                <p>As a devoted dog parent, I'm always on the lookout for fun ways to make memories with my furry
+                    companion.
+                    When I stumbled upon these custom dog dino suits, I knew I had hit the jackpot!</p>
+            </div>
+
+        </div>
+
+        <div class="user-review-container">
+            <div class="review1">
+                <img src="Media/profile2.png" alt="icon for personal profile">
+                <h3>Hugh Jack</h3>
+            </div>
+            <div class="review 2">
+                <p>The fit of the suit was impeccable. My pup looked both adorable and comfortable in their dino attire,
+                    and
+                    the lightweight fabric allowed for unrestricted movement, perfect for our adventurous outings.</p>
+            </div>
+        </div>
+
+        <div class="user-review-container">
+            <div class="review1">
+                <img src="Media/profile2.png" alt="icon for personal profile">
+                <h3>Gunther Bobson</h3>
+            </div>
+            <div class="review 2">
+                <p>What impressed me most was the attention to detail in the design. The fit was perfect, tailored
+                    precisely
+                    to my dog's measurements, ensuring both comfort and style.</p>
+            </div>
         </div>
     </div>
     <!-- End of review container -->
 
-        <footer id="Contact">
+    <footer id="Contact">
         <h3> Contact </h3>
         <h4> Email: email@email.ca </h4>
         <h4> Phone: ###-###-#### </h4>
