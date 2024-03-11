@@ -432,6 +432,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 3rem;
   
 }
 
@@ -445,7 +446,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+  margin-bottom: 3rem;
 }
 
 .banner-text h2{
