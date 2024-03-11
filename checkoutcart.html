@@ -2,149 +2,193 @@
 <html lang="en">
 
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <meta charset="utf-8">
-    <title>Pawsaurus Clothing Co Multi-Product Page</title>
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/flexbox.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Pawsaurus Clothing Co Multi-Product Page</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/flexbox.css" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
 
 </head>
 
 <body>
- <!-- Branding -->
-        <div class="Top-bar">
-            <h1>Pawsaurus Clothing Co</h1>
-            <img src="Media/Pawsaurus Clothing Co Logo.png" alt="logo of Pawsaurus Clothing Co">
-            <p>Where paws meet prehistoric</p>
-        </div>
-        <!-- End of branding section -->
+  <!-- Brand name and navigation bar -->
+  <header>
+    <!-- Branding -->
+    <div class="Top-bar">
+      <div class="bannerImg">
+        <img src="Media/Pawsaurus Clothing Co Logo.png" alt="logo of Pawsaurus Clothing Co"
+          onclick="window.location='index.html';">
+      </div>
+      <div class="centerlogo">
+        <h1>Pawsaurus Clothing Co</h1>
+      </div>
 
-        <!-- Navigation bar -->
-        <div class="nav-bar">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="Multi_Product.html">Shop</a>
-                <a href="#Contact">Contact</a>
-                <div class="search-bar">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search">
-                        <input type="image" src="Media/mag.png" alt="Submit">
-                    </form>
-                </div>
-            </nav>
+      <div class="topicons">
+        <a href="checkoutcart.html">
+          <span class="material-symbols-outlined">
+            shopping_cart
+          </span>
+        </a>
+
+        <a href="#">
+          <span class="material-symbols-outlined">
+            account_circle
+          </span>
+        </a>
+      </div>
+
+    </div>
+    <!-- End of branding section -->
+
+    <!-- Navigation bar -->
+    <div class="nav-bar">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Multi_Product.html">Shop</a>
+        <a href="#Contact">Contact</a>
+        <div class="search-bar">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search">
+            <a href="Multi_Product.html">
+              <span class="material-symbols-outlined">
+                search
+              </span>
+            </a>
+          </form>
         </div>
         <!-- End of Navigation bar section -->
-    </header>
-    <!-- End of brand name and navigation bar -->
+    </div>
+    <!-- End of Navigation bar section -->
+    </div>
+    <!-- End of Navigation bar section -->
+  </header>
+  <!-- End of brand name and navigation bar -->
 
-    <!-- start of totalcheckout -->
-    <div class="totalcheckout">
+  <!-- start of totalcheckout -->
+  <div class="totalcheckout">
     <!-- Start of checkoutCart -->
     <div class="checkoutCart">
-        <h1>Shopping Cart</h1>
+      <h1>Shopping Cart</h1>
 
-        <!-- Start of checkoutItems 1 -->
-        <div class="checkoutItems">
-            <img class="checkoutImg" src="media/dog.jpg">
-            <!-- Start of checkoutDescription -->
-            <div>
-                <h2>Pawsaurus Original</h2>
-                <p>Transform your furry friend into the king of the prehistoric jungle with this eye-catching ensemble.Featuring intricate details such as realistic T-Rex arms, menacing teeth, and a spiky tail, this costume is guaranteed to turn heads at any occasion. </p>
-            </div>
-            <!-- End of checkoutDescription -->
-            <input type="number" id="quantity" name="quantity" value="1" min="0" max="99">
-            <h2>$22.99</h2>
+      <!-- Start of checkoutItems 1 -->
+      <div class="checkoutItems">
+        <img class="checkoutImg" src="media/dog.jpg">
+        <!-- Start of checkoutDescription -->
+        <div>
+          <h2>Pawsaurus Original</h2>
+          <p>Transform your furry friend into the king of the prehistoric jungle with this eye-catching
+            ensemble.Featuring intricate details such as realistic T-Rex arms, menacing teeth, and a spiky tail, this
+            costume is guaranteed to turn heads at any occasion. </p>
         </div>
-            <!-- End of checkoutItems 1 -->
+        <!-- End of checkoutDescription -->
+        <input type="number" id="quantity" name="quantity" value="1" min="0" max="99">
+        <h2>$22.99</h2>
+      </div>
+      <!-- End of checkoutItems 1 -->
 
-<!-- Start of checkoutItems 2 -->
-        <div class="checkoutItems">
-            <img class="checkoutImg" src="media/dog2.jpg">
-            <!-- Start of checkoutDescription -->
-            <div class="checkoutDescription">
-                <h2>Triceratop Suit</h2>
-                <p>A fashionable yet spikey new suit for your furry friend. Straight from the Campanian peroid, your lil guy will be stomping around the house in style.</p>
-            </div>
-            <!-- End of checkoutDescription -->
-            <input type="number" id="quantity" name="quantity" value="1" min="0" max="99">
-            <h2>$11.50</h2>
+      <!-- Start of checkoutItems 2 -->
+      <div class="checkoutItems">
+        <img class="checkoutImg" src="media/dog2.jpg">
+        <!-- Start of checkoutDescription -->
+        <div class="checkoutDescription">
+          <h2>Triceratop Suit</h2>
+          <p>A fashionable yet spikey new suit for your furry friend. Straight from the Campanian peroid, your lil guy
+            will be stomping around the house in style.</p>
         </div>
-            <!-- End of checkoutItems 2 -->
+        <!-- End of checkoutDescription -->
+        <input type="number" id="quantity" name="quantity" value="1" min="0" max="99">
+        <h2>$11.50</h2>
+      </div>
+      <!-- End of checkoutItems 2 -->
     </div>
     <!-- end of checkoutCart -->
 
     <!-- Price and Payment div -->
     <div class="priceAndPayment">
-        <!-- Start of total div -->
-        <div class=total>
-            <h2> Total</h2>
-            <p>$22.99 <br> $11.50 <br>+ Local Tax = <br> $38.62</p>
-        </div>
-        <!-- end of total div -->
+      <!-- Start of total div -->
+      <div class=total>
+        <h2> Total</h2>
+        <p>$22.99 <br> $11.50 <br>+ Local Tax = <br> $38.62</p>
+      </div>
+      <!-- end of total div -->
 
-        <!-- Start of card info -->
-        <div class="cardInfo">
-            <h2>Card Information</h2>
-            <form action="/action_page.php" method="post"> <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/-->
-        <div>
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email">
-        </div>
-        <div>
-          <label for="fname">First Name:</label>
-          <input type="text" id="fname" name="fname">
-        </div>
-        <div>
-          <label for="fname">Last Name:</label>
-          <input type="text" id="Lname" name="Lname">
-        </div>
-        <div>
-          <label for="Addy">Address:</label>
-          <input type="text" id="Addy" name="Addy">
-        </div>
-        <div>
-          <label for="city">City:</label>
-          <input type="text" id="city" name="city">
-        </div>
-        <div>
-          <label for="ctry">Country:</label>
-          <input type="text" id="ctry" name="ctry">
-        </div>
-        <div>
-          <label for="zip">Postal code:</label>
-          <input type="text" id="zip" name="zip">
-        </div>
-        <div>
-          <label for="pn">Phone number:</label>
-          <input type="text" id="pn" name="pn">
-        </div>
-        <label> <!--Radio button input field and a label learned from https://html.form.guide/snippets/html-radio-button-label/-->
-          <input type="radio" name="choice" value="express"> Express Shipping
-        </label>
+      <!-- Start of card info -->
+      <div class="cardInfo">
+        <h2>Card Information</h2>
+        <form action="/action_page.php" method="post">
+          <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/-->
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+          </div>
+          <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+          </div>
+          <div>
+            <label for="fname">Last Name:</label>
+            <input type="text" id="Lname" name="Lname">
+          </div>
+          <div>
+            <label for="Addy">Address:</label>
+            <input type="text" id="Addy" name="Addy">
+          </div>
+          <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+          </div>
+          <div>
+            <label for="ctry">Country:</label>
+            <input type="text" id="ctry" name="ctry">
+          </div>
+          <div>
+            <label for="zip">Postal code:</label>
+            <input type="text" id="zip" name="zip">
+          </div>
+          <div>
+            <label for="pn">Phone number:</label>
+            <input type="text" id="pn" name="pn">
+          </div>
+          <label>
+            <!--Radio button input field and a label learned from https://html.form.guide/snippets/html-radio-button-label/-->
+            <input type="radio" name="choice" value="express"> Express Shipping
+          </label>
 
-        <label>
-          <input type="radio" name="choice" value="black"> Regular Shipping
-        </label>
-        <input type ="reset" class="Reset" value ="Clear">
-        <input type ="submit" class="Submit" value="Pay">
-      </form>
-        </div>
-        <!-- End of card info -->
+          <label>
+            <input type="radio" name="choice" value="black"> Regular Shipping
+          </label>
+          <input type="reset" class="Reset" value="Clear">
+          <input type="submit" class="Submit" value="Pay">
+        </form>
+      </div>
+      <!-- End of card info -->
 
     </div>
     <!-- End of Price and Payment div -->
-</div>
-<!-- end of totalcheckout -->
-    <footer id="Contact">
-        <h3> Contact </h3>
-        <h4> Email: email@email.ca </h4>
-        <h4> Phone: ###-###-#### </h4>
-    </footer>
-	</body>
+  </div>
+  <!-- end of totalcheckout -->
+  <footer id="Contact">
+    <h3> Contact </h3>
+    <h4> Email: email@email.ca </h4>
+    <h4> Phone: ###-###-#### </h4>
+  </footer>
+</body>
 
 </html>
