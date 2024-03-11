@@ -1,13 +1,13 @@
 /*Event Flexboxes*/
 
-footer{
+footer {
 	display: flex;
-	flex-flow:column wrap;
+	flex-flow: column wrap;
 	align-content: center;
 }
 
 /*Checkout Cart Flexboxes*/
-.totalcheckout{
+.totalcheckout {
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -19,19 +19,19 @@ footer{
 }
 
 .checkoutItems {
-	display:flex;
+	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
 }
 
-.checkoutItem{
+.checkoutItem {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid black;
 }
 
-.priceAndPayment{
+.priceAndPayment {
 	max-width: 25%;
 }
 
@@ -42,25 +42,25 @@ footer{
 
 @media screen and (max-width: 55em) {
 
-	.totalcheckout{
+	.totalcheckout {
 		justify-content: center;
 	}
 
-	.checkoutCart{
-	max-width: 100%;		
+	.checkoutCart {
+		max-width: 100%;
 	}
 
 
-	.priceAndPayment{
+	.priceAndPayment {
 		margin-top: 1em;
-	max-width: 100%;
-}
+		max-width: 100%;
+	}
 
-.checkoutItems {
-	display:flex;
-	flex-flow: column nowrap;
-	align-items: center;
-}
+	.checkoutItems {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
 
 }
 
@@ -79,14 +79,14 @@ nav {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	
+
 }
 
 
 
-.centerlogo{
-display:flex;
-flex-direction: column;
+.centerlogo {
+	display: flex;
+	flex-direction: column;
 }
 
 .filter {
@@ -133,60 +133,66 @@ flex-direction: column;
 }
 
 .listing-container {
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	margin-left: 2rem;
-	background-color: #D9D9D9;
+	background-color: white;
 	max-width: 20%;
+	border: 1px solid black;
+	
+
+}
+
+.listing-image {
+	flex: 1;
+	max-width: 100%;
+	max-height: 50%;
+	object-fit: fill;
+	align-self: center;
 	
 }
 
-.listing-image{
-	flex:1;
-	max-width: 100%;
-	max-height: 60%;
-	object-fit: fill;
-	align-self: center;
+.listing-text {
+	flex: 1;
+	border: 1px groove #459329;
+	background:#459329;
+	color:white;
 }
 
-.listing-text{
-	flex:1;
-}
-
-.search-bar form{
+.search-bar form {
 	display: flex;
 	justify-content: center;
 }
 
-.product-super-container{
-	display:flex;
+.product-super-container {
+	display: flex;
 	flex-direction: row;
 }
 
-.product-image-container{
-	flex:1;
+.product-image-container {
+	flex: 1;
 }
 
-.product-text-container{
-	flex:1;
+.product-text-container {
+	flex: 1;
 }
 
-.user-review-container{
-	display:flex;
+.user-review-container {
+	display: flex;
 	flex-direction: column;
->>>>>>> EricP01
+	>>>>>>>EricP01
 }
 
 /*Event Flexboxes*/
 
-.eventContainer{
-	display:flex;
+.eventContainer {
+	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 }
 
-.eventBlock{
-	flex:1;
+.eventBlock {
+	flex: 1;
 	flex-shrink: 1;
 	flex-basis: 20%;
 }
@@ -197,14 +203,14 @@ max-width -> the value or SMALLER
 */
 
 @media screen and (max-width: 68rem) {
-	.eventBlock{
+	.eventBlock {
 		min-width: 40%
 	}
 
 }
 
 @media screen and (max-width: 40rem) {
-	.eventBlock{
+	.eventBlock {
 		min-width: 80%
 	}
 
@@ -213,27 +219,27 @@ max-width -> the value or SMALLER
 
 /*About Us Page*/
 
-.story{
-	display:flex;
-	flex-flow:row wrap;
+.story {
+	display: flex;
+	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
-.story1{	
+.story1 {
 	max-width: 40%;
 }
 
-.story img{
+.story img {
 	max-width: 50%;
 }
 
-.reviewContainer{
+.reviewContainer {
 	display: flex;
-	flex-flow:row wrap;
+	flex-flow: row wrap;
 	justify-content: space-around;
 }
 
-.reviewBox{
+.reviewBox {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -243,34 +249,42 @@ max-width -> the value or SMALLER
 
 
 
-.brandContainer{
+.brandContainer {
 	display: flex;
-	flex-flow:row wrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
+.Service-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
 @media screen and (max-width: 45rem) {
-	.reviewBox{
+	.reviewBox {
 		min-width: 50%
 	}
-	
 
-	.story img{
-		order:1;
+
+	.story img {
+		order: 1;
 		max-width: 100%
 	}
 
-	.story1{
+	.story1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		order:2;
+		order: 2;
 		max-width: 100%;
 	}
+}
 
-	.super-container{
+@media screen (max-width: 720px) {
+	.product-container{
 		display:flex;
 		flex-direction: column;
 	}
-
 }

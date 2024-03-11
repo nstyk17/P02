@@ -336,6 +336,11 @@ form div {
   max-height: 100%;
 }
 
+.listing-container h4 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .bannerImg img {
   max-width: 50%;
   max-height: 50%;
@@ -348,6 +353,7 @@ form div {
 
 .listing-container {
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 .search-bar img {
@@ -359,10 +365,6 @@ form div {
   padding-left: 2rem;
 }
 
-
-.listing-container {
-  margin-bottom: 2rem;
-}
 
 .nav-bar a {
   margin-left: 2rem;
@@ -457,13 +459,20 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
   font-weight: bold;
-  margin-right: 2rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
 }
 
 .button button:hover,
 .button button:focus {
   color: green;
   background-color: rgb(200, 200, 200);
+}
+
+.Service-description p{
+  width: 30%;
+	align-self: center;
+  margin-bottom: 4rem;
 }
 
 
