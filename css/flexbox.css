@@ -39,14 +39,14 @@ product-superuser footer {
 	flex-grow: 4;
 }
 
-.costPart{
+.costPart {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
 
-.shippingOption{
+.shippingOption {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -184,14 +184,14 @@ nav {
 }
 
 .eventBlock {
-	flex:1;
+	flex: 1;
 	flex-shrink: 1;
 	flex-basis: 20%;
 }
 
-.eventBlock a{
+.eventBlock a {
 	min-height: 100%;
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
@@ -233,7 +233,7 @@ max-width -> the value or SMALLER
 	max-width: 40%;
 }
 
-.story2{
+.story2 {
 	max-width: 40%;
 }
 
@@ -314,12 +314,12 @@ max-width -> the value or SMALLER
 		min-width: 50%
 	}
 
-	.story{
+	.story {
 		justify-content: center;
 	}
 
 
-	.story2{
+	.story2 {
 		order: 1;
 		max-width: 100%
 	}
@@ -330,19 +330,19 @@ max-width -> the value or SMALLER
 		align-items: center;
 		order: 2;
 		max-width: 100%;
- 	 	margin-left:0;
+		margin-left: 0;
 	}
 
-	.brandContainer{
+	.brandContainer {
 		flex-flow: column wrap;
 		justify-content: center;
 		align-items: center;
 		max-width: 100%;
 	}
 
-	.brandContainer img{
+	.brandContainer img {
 
- 		 max-width: 45%;
+		max-width: 45%;
 	}
 }
 
@@ -382,8 +382,8 @@ max-width -> the value or SMALLER
 	margin: 0;
 }
 
-.footer-info-container{
-	display:flex;
+.footer-info-container {
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
@@ -393,6 +393,3 @@ max-width -> the value or SMALLER
 	flex-direction: column;
 	justify-content: center;
 }
-
-
-
