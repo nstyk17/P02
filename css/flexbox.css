@@ -279,6 +279,8 @@ max-width -> the value or SMALLER
 }
 
 .brandContainer {
+}
+
 .super-container {
 	display: flex;
 	flex-direction: column;
@@ -304,7 +306,8 @@ max-width -> the value or SMALLER
 
 }
 
-@media screen and (max-width: 60rem) {
+/*@media screen and (max-width: 60rem) {
+}*/
 
 /* Media Queries */
 
@@ -392,4 +395,6 @@ max-width -> the value or SMALLER
 	flex-direction: column;
 	justify-content: center;
 }
+
+
 
