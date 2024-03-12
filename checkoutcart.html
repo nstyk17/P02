@@ -32,7 +32,7 @@
     <!-- Branding -->
     <div class="Top-bar">
       <div class="bannerImg">
-        <img src="Media/Pawsaurus Clothing Co Logo.png" alt="logo of Pawsaurus Clothing Co"
+        <img src="Media/Pawsaurus_Clothing_Co_Logo.png" alt="logo of Pawsaurus Clothing Co"
           onclick="window.location='index.html';">
       </div>
       <div class="centerlogo">
@@ -91,7 +91,7 @@
       <div class="checkoutItems">
         <img class="checkoutImg" src="media/dog.jpg">
         <!-- Start of checkoutDescription -->
-        <div>
+        <div class="checkoutDescription">
           <h2>Pawsaurus Original</h2>
           <p>Transform your furry friend into the king of the prehistoric jungle with this eye-catching
             ensemble.Featuring intricate details such as realistic T-Rex arms, menacing teeth, and a spiky tail, this
@@ -124,8 +124,25 @@
     <div class="priceAndPayment">
       <!-- Start of total div -->
       <div class=total>
-        <h2> Total</h2>
-        <p>$22.99 <br> $11.50 <br>+ Local Tax = <br> $38.62</p>
+        <h2 class="bottomBorder"> Total</h2>
+        <div class="costPart">
+        <h5> Item(s) Total</h5>
+        <h5>$34.49 </h5>
+      </div>
+
+
+        <div class="costPart">
+        <h5>Local Tax</h5>
+        <h5>$38.62</h5>
+      </div>
+
+        <div class="costPart">
+        <h5>Shipping </h5>
+        <h5>$45.50</h5>
+      </div>
+        <h4 class="bottomBorder"> Order Total </h5>
+        <h5>$45.50</h5>
+
       </div>
       <!-- end of total div -->
 
@@ -134,46 +151,60 @@
         <h2>Card Information</h2>
         <form action="/action_page.php" method="post">
           <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/-->
-          <div>
+          <div class="formline">
             <label for="email">Email</label>
-            <input type="text" id="email" name="email">
+            <input type="email" id="email" name="email" placeholder="Email">
           </div>
-          <div>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname">
+          
+          <div class="formline">
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Name">
           </div>
-          <div>
-            <label for="fname">Last Name:</label>
-            <input type="text" id="Lname" name="Lname">
-          </div>
-          <div>
-            <label for="Addy">Address:</label>
-            <input type="text" id="Addy" name="Addy">
-          </div>
-          <div>
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city">
-          </div>
-          <div>
-            <label for="ctry">Country:</label>
-            <input type="text" id="ctry" name="ctry">
-          </div>
-          <div>
+
+          <div class="formline">
             <label for="zip">Postal code:</label>
-            <input type="text" id="zip" name="zip">
+            <input type="text" id="zip" name="zip" placeholder="Postal Code">
           </div>
-          <div>
+
+          <div class="formline">
             <label for="pn">Phone number:</label>
-            <input type="text" id="pn" name="pn">
+            <input type="tel" id="pn" name="pn" placeholder="###-###-####">
           </div>
+
+          <div class="formline">
+            <label for="pn">Card number:</label>
+            <input type="text" id="pn" name="pn" placeholder="####-####-####-####">
+          </div>
+
+          <div class="formTogether">
+          <div class="formline">
+            <label for="pn">Expiry Date:</label>
+            <input type="text" id="pn" name="pn" placeholder="##/##">
+          </div>
+
+          <div class="formline">
+            <label for="pn">CVV:</label>
+            <input type="text" id="pn" name="pn" placeholder="###">
+          </div>
+        </div>
+            
+            <div class="shippingOption">
+            <div class="radioBtn">
           <label>
             <!--Radio button input field and a label learned from https://html.form.guide/snippets/html-radio-button-label/-->
-            <input type="radio" name="choice" value="express"> Express Shipping
+             Express Shipping
           </label>
+            <input type="radio" name="choice" value="express">
+          </div>
 
-          <label>
-            <input type="radio" name="choice" value="black"> Regular Shipping
+          <div class="radioBtn">
+          <label>Regular Shipping
           </label>
+            <input type="radio" name="choice" value="black">
+            </div> 
+          </div>
+          <!-- end of shipping options -->
+
           <input type="reset" class="Reset" value="Clear">
           <input type="submit" class="Submit" value="Pay">
         </form>
