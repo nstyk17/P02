@@ -485,25 +485,11 @@ h3 {
   font-size: 21px;
 }
 
-.button {
+.exploreButton {
   display: flex;
   justify-content: flex-end;
-}
-
-.button button {
-  background: #333;
-  color: white;
-  font-size: 15px;
-  padding: 10px;
-  font-weight: bold;
-  margin-right: 4rem;
-  margin-bottom: 4rem;
-}
-
-.button button:hover,
-.button button:focus {
-  color: green;
-  background-color: rgb(200, 200, 200);
+  margin-right: 3rem;
+  margin-bottom: 2rem;
 }
 
 .Service-description p {

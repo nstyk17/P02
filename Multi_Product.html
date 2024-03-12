@@ -2,17 +2,24 @@
 <html lang="en">
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap">
+
+  <meta charset="utf-8">
+  <title>Pawsaurus Clothing Co Multi-Product Page</title>
+
+  <!-- Link to fonts stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
-  <meta charset="utf-8">
-  <title>Pawsaurus Clothing Co Multi-Product Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+
+  <!-- Link to css stylesheets -->
   <link href="css/main.css" rel="stylesheet">
   <link href="css/flexbox.css" rel="stylesheet">
+
+  <!-- Link to google icons -->
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
   <style>
     .material-symbols-outlined {
       font-variation-settings:
@@ -31,7 +38,7 @@
     <!-- Branding -->
     <div class="Top-bar">
       <div class="bannerImg">
-        <img src="Media/Pawsaurus Clothing Co Logo.png" alt="logo of Pawsaurus Clothing Co"
+        <img src="Media/Pawsaurus_Clothing_Co_Logo.png" alt="logo of Pawsaurus Clothing Co"
           onclick="window.location='index.html';">
       </div>
       <div class="centerlogo">
@@ -72,9 +79,8 @@
             </a>
           </form>
         </div>
-        <!-- End of Navigation bar section -->
-    </div>
-    <!-- End of Navigation bar section -->
+      </nav>
+      <!-- End of Navigation bar section -->
     </div>
     <!-- End of Navigation bar section -->
   </header>
@@ -84,12 +90,15 @@
   <!-- container for all product listing content -->
   <div class="super-container">
 
+    <!-- Start of Dog banner -->
     <div class="dog-banner">
       <div class="banner-text">
         <h2>For Dogs</h2>
       </div>
     </div>
+    <!-- End of dog banner -->
 
+    <!-- Start of service description for dog products -->
     <div class="Service-description">
       <h2>Custom Dinosaur Suits for Dogs</h2>
       <p>Roar into adventure with our one-of-a-kind custom dog dino suits! Perfect for any playful dog who's ready to
@@ -97,8 +106,9 @@
         at Pawsaurus cater to all dogs and sizes!</p>
       <h3>Our Happy Pawstumers</h3>
     </div>
+    <!-- End of service description for dog products -->
 
-    <!-- Start of product listing container feature -->
+    <!-- Start of reiview container feature -->
 
     <div class="product-container">
       <!-- Individual listing container -->
@@ -144,19 +154,25 @@
       </div>
     </div>
 
-    <div class="button">
-      <a href="Individual_Listing.html">
-        <button>Explore</button>
+    <!-- Start of button to dog service -->
+    <div class="exploreButton">
+      <a href="Individual_Listing.html" class="button-nav">
+        Explore
       </a>
     </div>
+    <!-- End of button to dog service -->
 
     <!-- End of product listing container feature  -->
+
+    <!-- Start of cat banner -->
     <div class="cat-banner">
       <div class="banner-text">
         <h2>For Cats</h2>
       </div>
     </div>
+    <!-- End of cat banner -->
 
+    <!-- Start of service description for cat products -->
     <div class="Service-description">
       <h2>Custom Dinosaur Suits for Cats</h2>
       <p>Transform your feline friend into a prehistoric prowler with our custom dino suits for cats! From ferocious
@@ -166,8 +182,9 @@
         unleash their inner dino!</p>
       <h3>Our Happy Pawstumers</h3>
     </div>
+    <!-- End of service description for cat products -->
 
-    <!-- Start of product listing container feature -->
+    <!-- Start of review container feature -->
     <div class="product-container">
 
       <!-- Individual listing container -->
@@ -214,20 +231,44 @@
 
     </div>
     <!-- End of product listing container feature  -->
-    <div class="button">
-      <a href="Individual_Listing_2.html">
-        <button>Explore</button>
-      </a>
 
+    <!-- Start of button to cat service -->
+    <div class="exploreButton">
+      <a href="Individual_Listing_2.html" class="button-nav">
+        Explore
+      </a>
     </div>
+    <!-- End of button to cat service -->
+
   </div>
   <!-- End of product listing page super container -->
-  <footer id="Contact">
-    <h3> Contact </h3>
-    <h4> Email: email@email.ca </h4>
-    <h4> Phone: ###-###-#### </h4>
-  </footer>
 
+  <!-- Start of footer -->
+  <footer id="Contact">
+
+    <div class="footer-nav-container">
+      <div class="footer-nav">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Multi_Product.html">Shop</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="P01index.html">Style Guide & Citations</a></li>
+            <li><a href="#Github">Github Repository</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer-info-container">
+      <div class="footer-company-info">
+        <p>&copy; 2024 Pawsaurus Clothing Co. All rights reserved.</p>
+        <address>13450 102 Ave #250, Surrey, BC V3T 0A3</address>
+      </div>
+    </div>
+  </footer>
+  <!-- End of footer -->
 </body>
 
 </html>

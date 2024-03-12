@@ -1,192 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>P02 - Style Guide - Pawsaurus Clothing Co</title>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/flexbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/flexbox.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <h1>P02 - Pawsaurus Clothing Co Style Guide</h1>
+  <header>
+    <h1>P02 - Pawsaurus Clothing Co Style Guide</h1>
 
-      <p>A template you can use to start building out your own style guides with.</p>
-
-
-      <nav>
-        <a href="#interactive_elements">Interactive Elements</a>
-        <a href="#text_elements">Text Elements</a>
-        <a href="#combined_elements">Combined Elements</a>
-        <a href="Product.html">Product Listing Template</a>
-        <a href="Checkout.html">Checkout Template</a>
-        <a href="#citations">Citations</a>
-      </nav>
-    </header>
+    <p>A template you can use to start building out your own style guides with.</p>
 
 
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-      <h2>Interactive Elements</h2>
+    <nav>
+      <a href="#interactive_elements">Interactive Elements</a>
+      <a href="#text_elements">Text Elements</a>
+      <a href="#combined_elements">Combined Elements</a>
+      <a href="Product.html">Product Listing Template</a>
+      <a href="Checkout.html">Checkout Template</a>
+      <a href="#citations">Citations</a>
+    </nav>
+  </header>
 
 
-      <section class="element">
-        <h3>In-text link</h3>
-        <h4>CSS selector:</h4>
-        <p>section a</p>
-        <h4>Sample code:</h4>
-        <code>&lt;p&gt;&lt;a href="https://www.google.com/">Click me to go to Google&lt;/a&gt;&lt;/p&gt;</code>
-          <h4>Rendered element</h4>
-          <p><a href="https://www.google.com/">Click me to go to Google</a></p> <!-- In-text link learned from https://www.w3schools.com/tags/tag_nav.asp -->
-      </section>
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
 
 
-      <!-- Default Button styling section -->
-      <section class="element">
-
-        <h3>Navigation Link</h3>
-
-        <h4>CSS selector:</h4>
-        <p>.button-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="button-nav" href="#">Default Button</a>
-
-      </section>
+    <section class="element">
+      <h3>In-text link</h3>
+      <h4>CSS selector:</h4>
+      <p>section a</p>
+      <h4>Sample code:</h4>
+      <code>&lt;p&gt;&lt;a href="https://www.google.com/">Click me to go to Google&lt;/a&gt;&lt;/p&gt;</code>
+      <h4>Rendered element</h4>
+      <p><a href="https://www.google.com/">Click me to go to Google</a></p>
+      <!-- In-text link learned from https://www.w3schools.com/tags/tag_nav.asp -->
+    </section>
 
 
-      <section class="element">
-        <h3>Submit/Reset Buttons</h3>
-        <h4>CSS selector:</h4>
-        <p>.Reset</p>
-        <h4>Sample code:</h4>
-        <code>&lt;input type ="reset" class="Reset" value ="Clear form"&gt;</code>
-        <h4>Rendered element</h4>
-          <form action="/action_page.php"> <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/ -->
-            <input type ="reset" class="Reset" value ="Clear form">
-            <input type ="submit" class="Submit" value="submit now">
-          </form>
-      </section>
+    <!-- Default Button styling section -->
+    <section class="element">
 
+      <h3>Navigation Link</h3>
 
-      <section class="element">
-        <h3>Text Input Field with Label</h3>
-        <h4>CSS selector:</h4>
-        <p>form</p>
-        <h4>Sample code:</h4>
-        <code>&lt;form action="/action_page.php"&gt;</code>
-        <code>&lt;label for="fname">Your Name:&gt;</code>
-        <code>&lt;input type="text" id="fname" name="fname"&gt;</code>
-        <code>&lt;/form&gt;</code>
-        <h4>Rendered element</h4>
-          <form action="/action_page.php"> <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/ -->
-            <label for="fname">Your Name:</label>
-            <input type="text" id="fname" name="fname">
+      <h4>CSS selector:</h4>
+      <p>.button-nav</p>
 
-          </form>
-      </section>
+      <h4>Sample code:</h4>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
 
-
-      <section class="element">
-        <h3>Radio Button with Label</h3>
-        <h4>CSS selector:</h4>
-        <p>label</p>
-        <h4>Sample code:</h4>
-        <code>&lt;label&gt;</code>
-        <code>&lt;input type="radio" name="choice" value="red"&gt;</code>
-        <code>&lt;/label&gt;</code>
-        <h4>Rendered element</h4>
-        <label> <!--Radio button input field and a label learned from https://html.form.guide/snippets/html-radio-button-label/  -->
-          <input type="radio" name="choice" value="red"> Red
-        </label>
-
-        <label>
-          <input type="radio" name="choice" value="black"> Black
-        </label>
-      </section>
-
-
-      <section class="element">
-        <h3>Image as a Link</h3>
-        <h4>CSS selector:</h4>
-        <p>section a:hover img, section a:focus img, img</p>
-        <h4>Sample code:</h4>
-        <code>&lt;a href="https://www.google.com/"&gt;</code>
-        <code>&lt;img src="WoolCap.jpeg" alt="Photo of a wool cap from Elwood"&gt;</code>
-        <code>&lt;/a&gt;</code>
-        <h4>Rendered element</h4>
-          <a href="https://www.google.com/"> <!--image link learned from https://www.w3schools.com/html/html_images.asp -->
-            <img src="media/WoolCap.jpeg" alt="Photo of a wool cap from Elwood">
-          </a>
-      </section>
+      <h4>Rendered element:</h4>
+      <a class="button-nav" href="#">Default Button</a>
 
     </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-      <h2>Text Elements</h2>
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+      <h4>CSS selector:</h4>
+      <p>.Reset</p>
+      <h4>Sample code:</h4>
+      <code>&lt;input type ="reset" class="Reset" value ="Clear form"&gt;</code>
+      <h4>Rendered element</h4>
+      <form action="/action_page.php">
+        <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/ -->
+        <input type="reset" class="Reset" value="Clear form">
+        <input type="submit" class="Submit" value="submit now">
+      </form>
+    </section>
 
-      <section class="element">
-        <h3>Headings</h3>
-        <h4>CSS selector:</h4>
-        <p>h1, h2, h3, h4</p>
-        <h4>Sample code:</h4>
-        <code>&lt;h1&gt;Header 1&lt;/h1&gt;</code>
-        <h4>Rendered element</h4>
+
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+      <h4>CSS selector:</h4>
+      <p>form</p>
+      <h4>Sample code:</h4>
+      <code>&lt;form action="/action_page.php"&gt;</code>
+      <code>&lt;label for="fname">Your Name:&gt;</code>
+      <code>&lt;input type="text" id="fname" name="fname"&gt;</code>
+      <code>&lt;/form&gt;</code>
+      <h4>Rendered element</h4>
+      <form action="/action_page.php">
+        <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/ -->
+        <label for="fname">Your Name:</label>
+        <input type="text" id="fname" name="fname">
+
+      </form>
+    </section>
+
+
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+      <h4>CSS selector:</h4>
+      <p>label</p>
+      <h4>Sample code:</h4>
+      <code>&lt;label&gt;</code>
+      <code>&lt;input type="radio" name="choice" value="red"&gt;</code>
+      <code>&lt;/label&gt;</code>
+      <h4>Rendered element</h4>
+      <label>
+        <!--Radio button input field and a label learned from https://html.form.guide/snippets/html-radio-button-label/  -->
+        <input type="radio" name="choice" value="red"> Red
+      </label>
+
+      <label>
+        <input type="radio" name="choice" value="black"> Black
+      </label>
+    </section>
+
+
+    <section class="element">
+      <h3>Image as a Link</h3>
+      <h4>CSS selector:</h4>
+      <p>section a:hover img, section a:focus img, img</p>
+      <h4>Sample code:</h4>
+      <code>&lt;a href="https://www.google.com/"&gt;</code>
+      <code>&lt;img src="WoolCap.jpeg" alt="Photo of a wool cap from Elwood"&gt;</code>
+      <code>&lt;/a&gt;</code>
+      <h4>Rendered element</h4>
+      <a href="https://www.google.com/"> <!--image link learned from https://www.w3schools.com/html/html_images.asp -->
+        <img src="media/WoolCap.jpeg" alt="Photo of a wool cap from Elwood">
+      </a>
+    </section>
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+    <h2>Text Elements</h2>
+
+    <section class="element">
+      <h3>Headings</h3>
+      <h4>CSS selector:</h4>
+      <p>h1, h2, h3, h4</p>
+      <h4>Sample code:</h4>
+      <code>&lt;h1&gt;Header 1&lt;/h1&gt;</code>
+      <h4>Rendered element</h4>
       <!-- Four different header sizes -->
-        <h1> Header 1 </h1> <!-- not sure why h1 is smaller than the others, didn't alter its sizing at all in css -->
-        <h2> Header 2 </h2>
-        <h3> Header 3 </h3>
-        <h4> Header 4 </h4>
-      </section>
+      <h1> Header 1 </h1> <!-- not sure why h1 is smaller than the others, didn't alter its sizing at all in css -->
+      <h2> Header 2 </h2>
+      <h3> Header 3 </h3>
+      <h4> Header 4 </h4>
+    </section>
 
-      <section class="element">
-        <h3>Paragraphs</h3>
-        <h4>CSS selector:</h4>
-        <p>p</p>
-        <h4>Sample code:</h4>
-        <code>&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;</code>
-        <h4>Rendered element</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-      </section>
-
-      <section class="element">
-        <h3>Numbered Lists</h3>
-        <h4>CSS selector:</h4>
-        <p>li</p>
-        <h4>Sample code:</h4>
-        <code>&lt;ol type="1"&gt;</code>
-        <code>&lt;li&gt;Option 1&lt;/li&gt;</code>
-        <code>&lt;/ol&gt;</code>
-        <h4>Rendered element</h4>
-        <ol type="1"> <!-- Numbered List learned from https://www.w3schools.com/html/html_lists_ordered.asp -->
-          <li>Option 1</li>
-          <li>Option 2</li>
-          <li>Option 3</li>
-          <li>Option 4</li>
-        </ol>
-      </section>
+    <section class="element">
+      <h3>Paragraphs</h3>
+      <h4>CSS selector:</h4>
+      <p>p</p>
+      <h4>Sample code:</h4>
+      <code>&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;</code>
+      <h4>Rendered element</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum</p>
 
     </section>
-    <!-- // TEXT ELEMENTS SECTION -->
+
+    <section class="element">
+      <h3>Numbered Lists</h3>
+      <h4>CSS selector:</h4>
+      <p>li</p>
+      <h4>Sample code:</h4>
+      <code>&lt;ol type="1"&gt;</code>
+      <code>&lt;li&gt;Option 1&lt;/li&gt;</code>
+      <code>&lt;/ol&gt;</code>
+      <h4>Rendered element</h4>
+      <ol type="1"> <!-- Numbered List learned from https://www.w3schools.com/html/html_lists_ordered.asp -->
+        <li>Option 1</li>
+        <li>Option 2</li>
+        <li>Option 3</li>
+        <li>Option 4</li>
+      </ol>
+    </section>
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
 
 
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-      <h2>Combined Elements</h2>
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <h2>Combined Elements</h2>
     <section class="element">
       <h3>Main Navigation</h3>
       <h4>CSS selector:</h4>
@@ -197,12 +205,12 @@
       <code>&lt;a href ="/Shop"&gt;Shop&lt;/a&gt;|</code>
       <code>&lt;/nav&gt;</code>
       <h4>Rendered element</h4>
-    <nav> <!--Navigation Menu learned from https://www.w3schools.com/tags/tag_nav.asp -->
-      <a href ="/Home/"> Home</a> |
-      <a href ="/Shop"> Shop</a> |
-      <a href ="/About"> About</a> |
-      <a href ="/Help"> About</a> |
-    </nav>
+      <nav> <!--Navigation Menu learned from https://www.w3schools.com/tags/tag_nav.asp -->
+        <a href="/Home/"> Home</a> |
+        <a href="/Shop"> Shop</a> |
+        <a href="/About"> About</a> |
+        <a href="/Help"> About</a> |
+      </nav>
     </section>
 
     <section class="element">
@@ -221,10 +229,11 @@
 
       <h4>Rendered element</h4>
       <h1>Blue Hat</h1>
-      <img src="media/WoolCap.jpeg" alt="Photo of a wool cap form Elwood">  <!--taken from https://media.istockphoto.com/id/866706940/photo/blue-baseball-hat.jpg?s=612x612&w=0&k=20&c=0BF_gS5o6HYr1KqtQ0ekvdPstZWpbnZNDGOIjfXStgg= -->
+      <img src="media/WoolCap.jpeg" alt="Photo of a wool cap form Elwood">
+      <!--taken from https://media.istockphoto.com/id/866706940/photo/blue-baseball-hat.jpg?s=612x612&w=0&k=20&c=0BF_gS5o6HYr1KqtQ0ekvdPstZWpbnZNDGOIjfXStgg= -->
       <h2>$24.99</h2>
       <p>This wonderful wool cap will be a staple in your outfits!</p>
-      <a class="button-nav" href = "google.com">Click here for more info on product</a>
+      <a class="button-nav" href="google.com">Click here for more info on product</a>
     </section>
 
     <section class="element">
@@ -241,7 +250,8 @@
       <code>&lt;/div&gt;</code>
 
       <h4>Rendered element</h4>
-      <form action="/action_page.php" method="post"> <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/-->
+      <form action="/action_page.php" method="post">
+        <!-- Text input field with reset and submit button learned from https://www.w3schools.com/tags/tag_input.asp and https://html5-tutorial.net/forms/submit-reset-buttons/-->
         <div>
           <label for="fname">First Name:</label>
           <input type="text" id="fname" name="fname">
@@ -270,17 +280,18 @@
           <label for="pn">Phone number:</label>
           <input type="text" id="pn" name="pn">
         </div>
-        <label> <!--Radio button input field and a label learned from https://html.form.guide/snippets/html-radio-button-label/-->
+        <label>
+          <!--Radio button input field and a label learned from https://html.form.guide/snippets/html-radio-button-label/-->
           <input type="radio" name="choice" value="express"> Express Shipping
         </label>
 
         <label>
           <input type="radio" name="choice" value="black"> Regular Shipping
         </label>
-        <input type ="reset" class="Reset" value ="Clear">
-        <input type ="submit" class="Submit" value="Pay">
+        <input type="reset" class="Reset" value="Clear">
+        <input type="submit" class="Submit" value="Pay">
       </form>
-      </section>
+    </section>
 
     <section class="element">
       <h3>Checkout Cart</h3>
@@ -302,33 +313,34 @@
         <div class="checkoutItems">
 
           <div class="checkoutItem">
-        <h3>E Wool Cap</h3>
-        <img src="media/WoolCap.jpeg" alt="Photo of a wool cap from Elwood" class="checkoutImg">
-        <h4>Price:$24.99</h4>
-        <input type ="submit" class="Reset" value="Remove">
-      </div><!--End of checkoutItem div -->
+            <h3>E Wool Cap</h3>
+            <img src="media/WoolCap.jpeg" alt="Photo of a wool cap from Elwood" class="checkoutImg">
+            <h4>Price:$24.99</h4>
+            <input type="submit" class="Reset" value="Remove">
+          </div><!--End of checkoutItem div -->
 
           <div class="checkoutItem">
-        <h3>E Wool Cap</h3>
-        <img src="media/WoolCap.jpeg" alt="Photo of a wool cap from Elwood" class="checkoutImg"> <!-- taken from: https://www.istockphoto.com/photo/red-baseball-cap-gm177016269-19844562-->
-        <h4>Price:$24.99</h4>
-        <input type ="submit" class="Reset" value="Remove">
-        </div><!--End of checkoutItem div -->
-      </div><!--End of checkoutItems div -->
+            <h3>E Wool Cap</h3>
+            <img src="media/WoolCap.jpeg" alt="Photo of a wool cap from Elwood" class="checkoutImg">
+            <!-- taken from: https://www.istockphoto.com/photo/red-baseball-cap-gm177016269-19844562-->
+            <h4>Price:$24.99</h4>
+            <input type="submit" class="Reset" value="Remove">
+          </div><!--End of checkoutItem div -->
+        </div><!--End of checkoutItems div -->
 
-      <div class="paymentForm">
-        <form>
-        <h2>Total:$49.98</h2>
-        <input type ="submit" class="Submit" value="Go to Checkout">
-      </form>
-    </div><!--End of paymentForm div -->
-    </div><!--End of checkoutCart div -->
+        <div class="paymentForm">
+          <form>
+            <h2>Total:$49.98</h2>
+            <input type="submit" class="Submit" value="Go to Checkout">
+          </form>
+        </div><!--End of paymentForm div -->
+      </div><!--End of checkoutCart div -->
 
     </section>
 
   </section>
 
-    <!-- // COMBINED ELEMENTS SECTION -->
+  <!-- // COMBINED ELEMENTS SECTION -->
 
 
 
@@ -338,34 +350,85 @@
   <!-- //BRANDING ELEMENTS // -->
   <h2>Branding Elements</h2>
   <section class="element">
-  <h2>Company Basic Branding Ideas</h2>
-  <p>Pawsaurus Clothing Co. is a pet apparel company, our clothing allows your pets to unlock their reptilian sides. Our dino-inspired clothes are made of premium, durable, non-toxic materials so your pets can enjoy them comfortably throughout their day. With a dedication to quality, comfort, and paleontology we strive to bring joy to both pets and owners. Join us on this prehistoric adventure!</p>
-  <h2>Fonts</h2>
-  <img src="media/Montserrat_Font.png" class="font_img" alt="Photo of the Montserrat typeface">
-  <h2>Color Palette</h2>
-  <img src="media/ColorPalette.png" class="Palette_img" alt="Photo of the black to white color palette">
-  <h2>Inspiration</h2>
-  <img src="media/Inspiration.jpg"  class="inspo_img" alt="Photo of the Stussy online store which serves as my inspiration for COLLECTIVE">
+    <h2>Company Basic Branding Ideas</h2>
+    <p>Pawsaurus Clothing Co. is a pet apparel company, our clothing allows your pets to unlock their reptilian sides.
+      Our dino-inspired clothes are made of premium, durable, non-toxic materials so your pets can enjoy them
+      comfortably throughout their day. With a dedication to quality, comfort, and paleontology we strive to bring joy
+      to both pets and owners. Join us on this prehistoric adventure!</p>
+    <h2>Fonts</h2>
+    <img src="media/Montserrat_Font.png" class="font_img" alt="Photo of the Montserrat typeface">
+    <h2>Color Palette</h2>
+    <img src="media/ColorPalette.png" class="Palette_img" alt="Photo of the black to white color palette">
+    <h2>Inspiration</h2>
+    <img src="media/Inspiration.jpg" class="inspo_img"
+      alt="Photo of the Stussy online store which serves as my inspiration for COLLECTIVE">
   </section>
   <!-- //BRANDING ELEMENTS // -->
 
-    <!-- //CITATIONS // -->
-    <section id="citations">
-      <h2>Citations</h2>
+  <!-- //CITATIONS // -->
+  <section id="citations">
+    <h2>Citations</h2>
 
-      <ul>
-        <li>Ulanovsky, Julieta. Designer. 2011. Sans-serif[Font]. Retrieved from <a href="https://fonts.google.com/specimen/Montserrat">https://fonts.google.com/specimen/Montserrat</a></li>
-        <li>Elwood Clothing. (n.d.). Chemical Pant - Black Ink [Image]. Elwood Clothing. Retrieved from <a href ="https://elwoodclothing.com/products/chemical-pant-black-ink">https://elwoodclothing.com/products/chemical-pant-black-ink</a> </li>
-        <li>Elwood Clothing. (n.d.). Rectangle Hoodie - Forest [Image]. Elwood Clothing. Retrieved from <a href ="https://elwoodclothing.com/collections/sweatshirts/products/rectangle-hoodie-forest">https://elwoodclothing.com/collections/sweatshirts/products/rectangle-hoodie-forest</a> </li>
-        <li>Elwood Clothing. (n.d.). E Wool Cap - Kelly Green [Image]. Elwood Clothing. Retrieved from <a href ="https://elwoodclothing.com/collections/accessories/products/e-cap-kelly-green">https://elwoodclothing.com/collections/accessories/products/e-cap-kelly-green</a> </li>
-        <li>Elwood Clothing. (n.d.). Crop Hill Tee - Coal [Image]. Elwood Clothing. Retrieved from <a href ="https://elwoodclothing.com/collections/tees/products/crop-hill-tee-coal">https://elwoodclothing.com/collections/tees/products/crop-hill-tee-coal</a> </li>
-        <li>Porter, Nia. 2016. KITH Women's Store [Image]. RACKED. Retrieved from <a href ="https://www.racked.com/2016/7/18/12199324/best-streetwear-shops-world"> https://www.racked.com/2016/7/18/12199324/best-streetwear-shops-world</a></li>
-        <li>Ahkâm. (n.d.). Basket Cart Icon PNG Transparent Background[Image]. FreeIconsPNG. Retrieved from <a href="https://www.freeiconspng.com/img/28356"> https://www.freeiconspng.com/img/28356</a></li>
-        <li>colormaniac0313. (n.d.). From Black to White Color Palette[Image]. Color-Hex. Retrieved from <a href="https://www.color-hex.com/color-palette/37706"> https://www.color-hex.com/color-palette/37706</a></li>
-        <li>N/A. (n.d.). Montserrat(typeface)[Image]. Wikipedia. Retrieved from <a href="https://en.wikipedia.org/wiki/Montserrat_%28typeface%29"> https://en.wikipedia.org/wiki/Montserrat_%28typeface%29</a></li>
-      </ul>
+    <ul>
+      <li>Ulanovsky, Julieta. Designer. 2011. Sans-serif[Font]. Retrieved from <a
+          href="https://fonts.google.com/specimen/Montserrat">https://fonts.google.com/specimen/Montserrat</a></li>
+      <li>Elwood Clothing. (n.d.). Chemical Pant - Black Ink [Image]. Elwood Clothing. Retrieved from <a
+          href="https://elwoodclothing.com/products/chemical-pant-black-ink">https://elwoodclothing.com/products/chemical-pant-black-ink</a>
+      </li>
+      <li>Elwood Clothing. (n.d.). Rectangle Hoodie - Forest [Image]. Elwood Clothing. Retrieved from <a
+          href="https://elwoodclothing.com/collections/sweatshirts/products/rectangle-hoodie-forest">https://elwoodclothing.com/collections/sweatshirts/products/rectangle-hoodie-forest</a>
+      </li>
+      <li>Elwood Clothing. (n.d.). E Wool Cap - Kelly Green [Image]. Elwood Clothing. Retrieved from <a
+          href="https://elwoodclothing.com/collections/accessories/products/e-cap-kelly-green">https://elwoodclothing.com/collections/accessories/products/e-cap-kelly-green</a>
+      </li>
+      <li>Elwood Clothing. (n.d.). Crop Hill Tee - Coal [Image]. Elwood Clothing. Retrieved from <a
+          href="https://elwoodclothing.com/collections/tees/products/crop-hill-tee-coal">https://elwoodclothing.com/collections/tees/products/crop-hill-tee-coal</a>
+      </li>
+      <li>Porter, Nia. 2016. KITH Women's Store [Image]. RACKED. Retrieved from <a
+          href="https://www.racked.com/2016/7/18/12199324/best-streetwear-shops-world">
+          https://www.racked.com/2016/7/18/12199324/best-streetwear-shops-world</a></li>
+      <li>Ahkâm. (n.d.). Basket Cart Icon PNG Transparent Background[Image]. FreeIconsPNG. Retrieved from <a
+          href="https://www.freeiconspng.com/img/28356"> https://www.freeiconspng.com/img/28356</a></li>
+      <li>colormaniac0313. (n.d.). From Black to White Color Palette[Image]. Color-Hex. Retrieved from <a
+          href="https://www.color-hex.com/color-palette/37706"> https://www.color-hex.com/color-palette/37706</a></li>
+      <li>N/A. (n.d.). Montserrat(typeface)[Image]. Wikipedia. Retrieved from <a
+          href="https://en.wikipedia.org/wiki/Montserrat_%28typeface%29">
+          https://en.wikipedia.org/wiki/Montserrat_%28typeface%29</a></li>
+      <li>Getty Images. (n.d). How Fast Can A Dog Actually Run?[Image]. Southern Living. Retrieved from <a
+          href="https://www.southernliving.com/culture/pets/how-fast-can-a-dog-run">https://www.southernliving.com/culture/pets/how-fast-can-a-dog-run</a>
+      </li>
+      <li>PartyPefecto. (n.d). Medium Toy Story Rex Dog Costume - Fancy Dress Pet Outfit Coat Dress Up Puppy[Image].
+        EBay. Retrieved from <a href="https://www.ebay.ca/itm/325543078128">https://www.ebay.ca/itm/325543078128</a>
+      </li>
+      <li>Hotumn. (n.d). Hotumn Dinosaur Dog Halloween Costume Pet Dino Hoodie for Small Dogs[Image]. Amazon. Retrieved
+        from <a
+          href="https://www.amazon.ca/Hotumn-Dinosaur-Halloween-Costume-X-Small/dp/B0BN3CDZD5?th=1">https://www.amazon.ca/Hotumn-Dinosaur-Halloween-Costume-X-Small/dp/B0BN3CDZD5?th=1</a>
+      </li>
+      <li>Costumeville. (n.d).
+        Blue Dinosaur T-Rex Pet Dog Cat Halloween Costume Hoodie Sweater[Image]. EBay. Retrieved from <a
+          href="https://www.ebay.ca/itm/403154428982?var=673267857178">https://www.ebay.ca/itm/403154428982?var=673267857178</a>
+      </li>
+      <li>Jody Vannorden Photography. (n.d).
+        Hilarious Cat Visits the Beach, Hates It More Than Taking a Bath[Image]. Daily Paws. Retrieved from <a
+          href="https://www.dailypaws.com/pet-news-entertainment/pet-news/cat-hates-the-beach">https://www.dailypaws.com/pet-news-entertainment/pet-news/cat-hates-the-beach</a>
+      </li>
+      <li>Cododia. (n.d).
+        Pet Cat Winter Clothes Funny Dinosaur Costume[Image]. Walmart. Retrieved from <a
+          href="https://www.walmart.ca/en/ip/Pet-Cat-Winter-Clothes-Funny-Dinosaur-Costume-Puppy-Dog-Cat-Warm-Plush-Coat-Fleece-Hoodies-Sweater-Kitten-Clothing-XXL/PRD28E2F3O8KMJZ">https://www.walmart.ca/en/ip/Pet-Cat-Winter-Clothes-Funny-Dinosaur-Costume-Puppy-Dog-Cat-Warm-Plush-Coat-Fleece-Hoodies-Sweater-Kitten-Clothing-XXL/PRD28E2F3O8KMJZ</a>
+      </li>
+      <li>Chewy. (2023).
+        Stegosaurus Dinosaur Cat Costume[Image]. Cosmopolitan. Retrieved from <a
+          href="https://www.cosmopolitan.com/lifestyle/g28688003/best-halloween-costumes-for-cats/">https://www.cosmopolitan.com/lifestyle/g28688003/best-halloween-costumes-for-cats/</a>
+      </li>
 
-      </section>
-    <!-- //CITATIONS // -->
-  </body>
+      <li>Petco. (n.d).
+        Petco Bootique Dinosaur Costume[Image]. PartyCity. Retrieved from <a
+          href="https://www.partycity.ca/en/pdp/petco-bootique-dinosaur-costume-3999140p.3999140.html">https://www.partycity.ca/en/pdp/petco-bootique-dinosaur-costume-3999140p.3999140.html/</a>
+      </li>
+    </ul>
+
+  </section>
+  <!-- //CITATIONS // -->
+</body>
+
 </html>

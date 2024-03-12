@@ -351,3 +351,49 @@ max-width -> the value or SMALLER
 		justify-content: flex-start;
 	}
 }
+
+.footer-nav-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+
+
+}
+
+.footer-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-nav li {
+	margin-right: 20px;
+}
+
+.footer-nav li:last-child {
+	margin-right: 0;
+}
+
+.footer-info-container{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.footer-company-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer-company-info p,
+address {
+	font-size: 16px;
+	font-weight: bolder;
+	align-self: center;
+	width: 100%;
+}
