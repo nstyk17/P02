@@ -39,6 +39,19 @@ product-superuser footer {
 	flex-grow: 4;
 }
 
+.costPart{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.shippingOption{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 @media screen and (max-width: 55em) {
 
 	.totalcheckout {
@@ -171,9 +184,18 @@ nav {
 }
 
 .eventBlock {
-	flex: 1;
+	flex:1;
 	flex-shrink: 1;
 	flex-basis: 20%;
+}
+
+.eventBlock a{
+	min-height: 100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
 }
 
 /*
@@ -196,7 +218,7 @@ max-width -> the value or SMALLER
 }
 
 
-/*About Us Page*/
+/*ABOUT US PAGE FLEX*/
 
 .story {
 	display: flex;
@@ -205,11 +227,14 @@ max-width -> the value or SMALLER
 }
 
 .story1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	max-width: 40%;
 }
 
-.story img {
-	max-width: 50%;
+.story2{
+	max-width: 40%;
 }
 
 .reviewContainer {
@@ -253,6 +278,9 @@ max-width -> the value or SMALLER
 	box-sizing: border-box;
 }
 
+.brandContainer {
+}
+
 .super-container {
 	display: flex;
 	flex-direction: column;
@@ -278,6 +306,8 @@ max-width -> the value or SMALLER
 
 }
 
+/*@media screen and (max-width: 60rem) {
+}*/
 
 /* Media Queries */
 
@@ -286,8 +316,12 @@ max-width -> the value or SMALLER
 		min-width: 50%
 	}
 
+	.story{
+		justify-content: center;
+	}
 
-	.story img {
+
+	.story2{
 		order: 1;
 		max-width: 100%
 	}
@@ -298,6 +332,19 @@ max-width -> the value or SMALLER
 		align-items: center;
 		order: 2;
 		max-width: 100%;
+ 	 	margin-left:0;
+	}
+
+	.brandContainer{
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+		max-width: 100%;
+	}
+
+	.brandContainer img{
+
+ 		 max-width: 45%;
 	}
 }
 
@@ -348,4 +395,6 @@ max-width -> the value or SMALLER
 	flex-direction: column;
 	justify-content: center;
 }
+
+
 

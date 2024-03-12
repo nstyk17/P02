@@ -45,6 +45,10 @@ p {
 
 .Submit {
   color: white;
+  padding:0.5em 1em 0.5em 1em;
+  font-size: 1em;
+  border:none;
+  border-radius: 8px;
   background-color: #022e1c;
 }
 
@@ -56,6 +60,10 @@ p {
 
 .Reset {
   color: white;
+  padding:0.5em 1em 0.5em 1em;
+  font-size:1em;
+  border:none;
+  border-radius: 8px;
   background-color: #8ea75f;
 }
 
@@ -208,7 +216,14 @@ h3 {
 }
 
 h4 {
-  margin-bottom: 0.25rem;
+  font-size:1.25em;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+h5{
+  font-size:1em;
+  font-weight: normal;
 }
 
 .container {
@@ -280,13 +295,6 @@ s .checkoutImg {
   max-width: 40%;
 }
 
-form {
-  font-weight: bold;
-}
-
-label {
-  font-weight: bold;
-}
 
 section {
   margin-bottom: 2em;
@@ -308,6 +316,40 @@ body {
 form div {
   /*learned from cousin who has experience coding in HTML/CSS */
   margin-bottom: 5px;
+}
+
+.formline{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.formTogether{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formTogether .formline{
+  max-width: 50%;
+}
+
+.formTogether .formline{
+  margin-right: 0.5em
+  }
+
+  .radioBtn{
+    border:1px solid black;
+    border-radius: 8px;
+    padding:0.5em;
+    max-width: 35%;
+  }
+
+
+
+.dropdown {
+  overflow: scroll-y;
+
 }
 
 .xlarge-container {
@@ -497,6 +539,118 @@ h3 {
   color: black;
   transition: color 0.25s ease-out;
 }
+
+/*HOME PAGE STYLING*/
+
+ .eventBlock{
+  background-color: #8ee86d;
+  max-width: 25%;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding:0.5em 1em 0.5em 1em;
+  margin:0.5em 0.5em 0.5em 0.5em ;
+ }
+
+ .eventBlock:hover, .eventBlock:focus{
+  background-color: #459329;
+  transition:background-color 0.5s ease-in;
+ }
+
+ .eventBlock img{
+  height:30em;
+  object-fit: cover;
+ }
+
+ .eventBlock a{
+    text-align: center;
+ }
+
+/*ABOUT PAGE STYLING*/
+
+.story1{
+  margin-left:10em;
+}
+
+.brandHeader{
+  margin-top: 2em;
+}
+
+.brandContainer img{
+  max-width: 15%;
+  margin:1em 0.5em 1em 0.5em;
+}
+
+/*CART STYLING*/
+
+
+.totalcheckout{
+  margin-top:2em;
+}
+
+.checkoutCart{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.checkoutCart h1{
+  border-bottom:solid 1px black;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.checkoutCart h2{
+
+  margin-left: 1em;
+  margin-right: 1em;
+  }
+
+
+.checkoutItems{
+  padding-top:0.5em;
+  padding-bottom:0.25em;
+  border-bottom:solid 1px black;
+}
+
+.checkoutItems img{
+  max-width: 20%;
+  margin:0.5em 0.5em 0.5em 0.5em;
+}
+
+.checkoutDescription{
+  max-width: 90%;
+  margin:2em;
+}
+
+#quantity{
+  max-height: 10%;
+  max-width: 7%;
+  margin:0 1em 0 1em;
+}
+
+.priceAndPayment{
+  margin-top:4em;
+  min-width: 26%
+}
+
+.total{
+  border:solid 1px black;
+  padding:1.5em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+
+.bottomBorder{
+  border-bottom:1px solid black;
+}
+
+.cardInfo{
+  border:solid 1px black;
+  border-radius: 8px;
+  padding:1em;
+}
+
+
 
 .listing-container h4 {
   margin-left: 2rem;
