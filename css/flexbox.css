@@ -278,8 +278,6 @@ max-width -> the value or SMALLER
 	box-sizing: border-box;
 }
 
-.brandContainer {
-}
 
 .super-container {
 	display: flex;

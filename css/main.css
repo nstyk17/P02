@@ -45,9 +45,9 @@ p {
 
 .Submit {
   color: white;
-  padding:0.5em 1em 0.5em 1em;
+  padding: 0.5em 1em 0.5em 1em;
   font-size: 1em;
-  border:none;
+  border: none;
   border-radius: 8px;
   background-color: #022e1c;
 }
@@ -60,9 +60,9 @@ p {
 
 .Reset {
   color: white;
-  padding:0.5em 1em 0.5em 1em;
-  font-size:1em;
-  border:none;
+  padding: 0.5em 1em 0.5em 1em;
+  font-size: 1em;
+  border: none;
   border-radius: 8px;
   background-color: #8ea75f;
 }
@@ -216,13 +216,13 @@ h3 {
 }
 
 h4 {
-  font-size:1.25em;
+  font-size: 1.25em;
   font-weight: bold;
   margin-bottom: 0.3rem;
 }
 
-h5{
-  font-size:1em;
+h5 {
+  font-size: 1em;
   font-weight: normal;
 }
 
@@ -318,39 +318,33 @@ form div {
   margin-bottom: 5px;
 }
 
-.formline{
+.formline {
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
 }
 
-.formTogether{
+.formTogether {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.formTogether .formline{
+.formTogether .formline {
   max-width: 50%;
 }
 
-.formTogether .formline{
+.formTogether .formline {
   margin-right: 0.5em
-  }
-
-  .radioBtn{
-    border:1px solid black;
-    border-radius: 8px;
-    padding:0.5em;
-    max-width: 35%;
-  }
-
-
-
-.dropdown {
-  overflow: scroll-y;
-
 }
+
+.radioBtn {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0.5em;
+  max-width: 35%;
+}
+
 
 .xlarge-container {
   border-top-width: thin;
@@ -506,28 +500,28 @@ h3 {
   white-space: nowrap;
 }
 
-.Service-description h2{
+.Service-description h2 {
   font-size: 48px;
 }
 
-.Service-description p{
+.Service-description p {
   font-size: 21px;
 }
 
-.exploreButton{
+.exploreButton {
   display: flex;
   justify-content: flex-end;
   margin-right: 3rem;
   margin-bottom: 2rem;
 }
 
-.Service-description p{
+.Service-description p {
   width: 50%;
   align-self: center;
   margin-bottom: 2rem;
 }
 
-.Service-description h3{
+.Service-description h3 {
   font-size: 32px;
   align-self: center;
   margin-top: 1rem;
@@ -542,112 +536,113 @@ h3 {
 
 /*HOME PAGE STYLING*/
 
- .eventBlock{
+.eventBlock {
   background-color: #8ee86d;
   max-width: 25%;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  padding:0.5em 1em 0.5em 1em;
-  margin:0.5em 0.5em 0.5em 0.5em ;
- }
+  padding: 0.5em 1em 0.5em 1em;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+}
 
- .eventBlock:hover, .eventBlock:focus{
+.eventBlock:hover,
+.eventBlock:focus {
   background-color: #459329;
-  transition:background-color 0.5s ease-in;
- }
+  transition: background-color 0.5s ease-in;
+}
 
- .eventBlock img{
-  height:30em;
+.eventBlock img {
+  height: 30em;
   object-fit: cover;
- }
+}
 
- .eventBlock a{
-    text-align: center;
- }
+.eventBlock a {
+  text-align: center;
+}
 
 /*ABOUT PAGE STYLING*/
 
-.story1{
-  margin-left:10em;
+.story1 {
+  margin-left: 10em;
 }
 
-.brandHeader{
+.brandHeader {
   margin-top: 2em;
 }
 
-.brandContainer img{
+.brandContainer img {
   max-width: 15%;
-  margin:1em 0.5em 1em 0.5em;
+  margin: 1em 0.5em 1em 0.5em;
 }
 
 /*CART STYLING*/
 
 
-.totalcheckout{
-  margin-top:2em;
+.totalcheckout {
+  margin-top: 2em;
 }
 
-.checkoutCart{
+.checkoutCart {
   margin-left: 1em;
   margin-right: 1em;
 }
 
-.checkoutCart h1{
-  border-bottom:solid 1px black;
+.checkoutCart h1 {
+  border-bottom: solid 1px black;
   padding-left: 0.5em;
   padding-bottom: 0.5em;
 }
 
-.checkoutCart h2{
+.checkoutCart h2 {
 
   margin-left: 1em;
   margin-right: 1em;
-  }
-
-
-.checkoutItems{
-  padding-top:0.5em;
-  padding-bottom:0.25em;
-  border-bottom:solid 1px black;
 }
 
-.checkoutItems img{
+
+.checkoutItems {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: solid 1px black;
+}
+
+.checkoutItems img {
   max-width: 20%;
-  margin:0.5em 0.5em 0.5em 0.5em;
+  margin: 0.5em 0.5em 0.5em 0.5em;
 }
 
-.checkoutDescription{
+.checkoutDescription {
   max-width: 90%;
-  margin:2em;
+  margin: 2em;
 }
 
-#quantity{
+#quantity {
   max-height: 10%;
   max-width: 7%;
-  margin:0 1em 0 1em;
+  margin: 0 1em 0 1em;
 }
 
-.priceAndPayment{
-  margin-top:4em;
+.priceAndPayment {
+  margin-top: 4em;
   min-width: 26%
 }
 
-.total{
-  border:solid 1px black;
-  padding:1.5em;
+.total {
+  border: solid 1px black;
+  padding: 1.5em;
   border-radius: 8px;
   margin-bottom: 1em;
 }
 
 
-.bottomBorder{
-  border-bottom:1px solid black;
+.bottomBorder {
+  border-bottom: 1px solid black;
 }
 
-.cardInfo{
-  border:solid 1px black;
+.cardInfo {
+  border: solid 1px black;
   border-radius: 8px;
-  padding:1em;
+  padding: 1em;
 }
 
 
@@ -663,25 +658,25 @@ h3 {
 }
 
 .listing-image img {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .listing-text {
-	padding: 16px;
-	box-sizing: border-box;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .listing-text h2 {
-	font-size: 28px;
-	margin-bottom: 8px;
+  font-size: 28px;
+  margin-bottom: 8px;
 }
 
 .listing-text h4 {
-	font-size: 15px;
-	color: #666;
-	margin-bottom: 8px;
-	line-height: 1.3;
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 8px;
+  line-height: 1.3;
 }
 
 
@@ -695,16 +690,16 @@ footer {
 
 .footer-company-info p,
 address {
-	font-size: 16px;
-	font-weight: bolder;
-	align-self: center;
-	width: 100%;
+  font-size: 16px;
+  font-weight: bolder;
+  align-self: center;
+  width: 100%;
 }
 
 .footer-nav li {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .footer-nav li:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
